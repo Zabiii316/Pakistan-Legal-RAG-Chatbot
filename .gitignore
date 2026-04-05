@@ -4,3 +4,5 @@ __pycache__/
 .env
 .env.*
 .DS_Store
+.vscode/
+data/raw/*.txt   # optional if large/sensitive
