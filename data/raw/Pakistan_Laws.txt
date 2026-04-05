@@ -1,0 +1,1978 @@
+================================================================================
+         LAWS OF PAKISTAN — COMPREHENSIVE LEGAL REFERENCE DOCUMENT
+         Compiled from Authentic Legal Sources | Pakistan Code | NA.gov.pk
+         Constitution of Pakistan 1973 (as amended up to 27th Amendment, 2025)
+================================================================================
+
+DISCLAIMER: This document is a legal reference summary compiled from official
+Pakistani legal sources including the National Assembly of Pakistan (na.gov.pk),
+Pakistan Code (pakistancode.gov.pk), SECP (secp.gov.pk), FBR (fbr.gov.pk),
+CommonLII, and other authenticated government legal repositories. It is intended
+for educational and reference purposes only and does not constitute legal advice.
+For definitive legal text, always refer to the Gazette of Pakistan and official
+government portals. Laws are subject to amendment by Parliament.
+
+Date of Compilation: April 2026
+Authority References: Constitution of Pakistan 1973 | Pakistan Penal Code 1860 |
+Code of Criminal Procedure 1898 | Companies Act 2017 | Income Tax Ordinance 2001
+| National Accountability Ordinance 1999 | Muslim Family Laws Ordinance 1961
+
+================================================================================
+                        TABLE OF CONTENTS
+================================================================================
+
+PART I   — CONSTITUTIONAL LAW
+PART II  — CRIMINAL LAW
+PART III — FEDERAL LAWS (Taxation, Anti-Corruption, Cyber, Media, Labour)
+PART IV  — CORPORATE LAWS
+PART V   — INSTITUTIONAL LAWS (Judiciary, SBP, SECP, NAB, PEMRA, FBR)
+PART VI  — DOMESTIC LAWS (Family, Marriage, Divorce, Custody, Inheritance)
+
+================================================================================
+                   PART I: CONSTITUTIONAL LAW
+================================================================================
+
+SOURCE: Constitution of the Islamic Republic of Pakistan, 1973
+        [Enacted 12 April 1973 | Came into Force: 14 August 1973]
+        [As amended through the 27th Constitutional Amendment, 2025]
+        [National Assembly of Pakistan | na.gov.pk]
+        [Total Parts: XII | Total Articles: 280 | Total Schedules: 7]
+        [Word Count: ~56,240 | Currently the 7th longest constitution in world]
+
+------------------------------------------------------------------------
+PREAMBLE — THE OBJECTIVES RESOLUTION
+------------------------------------------------------------------------
+
+Whereas sovereignty over the entire Universe belongs to Almighty Allah alone,
+and the authority to be exercised by the people of Pakistan within the limits
+prescribed by Him is a sacred trust;
+
+And whereas it is the will of the people of Pakistan to establish an order:
+  - Wherein the State shall exercise its powers through chosen representatives;
+  - Wherein the principles of democracy, freedom, equality, tolerance and social
+    justice, as enunciated by Islam, shall be fully observed;
+  - Wherein Muslims shall be enabled to order their lives in accordance with the
+    teachings of the Holy Quran and Sunnah;
+  - Wherein adequate provision shall be made for minorities to freely profess
+    and practice their religions;
+  - Wherein the territories now included in or in accession with Pakistan and
+    such other territories as may hereafter be included or accede to Pakistan
+    shall form a Federation;
+
+[Note: The Objectives Resolution was made a substantive part of the Constitution
+by Article 2-A, inserted by the Revival of Constitution of 1973 Order, 1985.]
+
+------------------------------------------------------------------------
+PART I — INTRODUCTORY (Articles 1–6)
+------------------------------------------------------------------------
+
+ARTICLE 1 — THE REPUBLIC AND ITS TERRITORIES
+  Pakistan shall be a Federal Republic known as the Islamic Republic of Pakistan.
+  Territories of Pakistan comprise:
+    (a) Provinces of Balochistan, Khyber Pakhtunkhwa, Punjab, and Sindh;
+    (b) Islamabad Capital Territory (Federal Capital);
+    (c) Gilgit-Baltistan (as per 25th Amendment mainstreaming FATA, 2018);
+    (d) Such states and territories as are or may be included in Pakistan.
+  Parliament may by law admit new States or areas into the Federation.
+
+ARTICLE 2 — ISLAM AS STATE RELIGION
+  Islam shall be the State religion of Pakistan.
+
+ARTICLE 2-A — OBJECTIVES RESOLUTION AS SUBSTANTIVE PART
+  The Objectives Resolution is made a substantive part of the Constitution.
+
+ARTICLE 3 — ELIMINATION OF EXPLOITATION
+  The State shall ensure elimination of all forms of exploitation and the
+  gradual fulfilment of the fundamental principle: from each according to
+  his ability, to each according to his work.
+
+ARTICLE 4 — RIGHT OF INDIVIDUALS TO BE DEALT WITH IN ACCORDANCE WITH LAW
+  To enjoy protection of law and to be treated in accordance with law is the
+  inalienable right of every citizen, wherever he may be, and of every other
+  person for the time being within Pakistan.
+    (a) No action detrimental to life, liberty, body, reputation or property
+        of any person shall be taken except in accordance with law;
+    (b) No person shall be prevented from doing that which is not prohibited by law;
+    (c) No person shall be compelled to do that which law does not require.
+
+ARTICLE 5 — LOYALTY TO STATE AND OBEDIENCE TO CONSTITUTION
+  (1) Loyalty to the State is the basic duty of every citizen.
+  (2) Obedience to the Constitution and law is the inviolable obligation of
+      every citizen wherever he may be and of every other person in Pakistan.
+
+ARTICLE 6 — HIGH TREASON
+  (1) Any person who abrogates or attempts or conspires to abrogate, subverts
+      or attempts or conspires to subvert the Constitution by use of force or
+      show of force or by other unconstitutional means shall be guilty of high
+      treason.
+  (2) Any person aiding or abetting such acts shall also be guilty of high treason.
+  (3) Parliament shall by law provide for punishment of persons found guilty
+      of high treason.
+
+------------------------------------------------------------------------
+PART II — FUNDAMENTAL RIGHTS (Articles 8–28)
+------------------------------------------------------------------------
+
+ARTICLE 8 — LAWS INCONSISTENT WITH FUNDAMENTAL RIGHTS TO BE VOID
+  Any law, or any custom or usage having the force of law, inconsistent with
+  the rights conferred by this Chapter shall, to the extent of such
+  inconsistency, be void. The State shall not make any such law.
+
+ARTICLE 9 — SECURITY OF PERSON
+  No person shall be deprived of life or liberty save in accordance with law.
+
+ARTICLE 10 — SAFEGUARDS AS TO ARREST AND DETENTION
+  (1) No person who is arrested shall be detained in custody without being
+      informed of the grounds for such arrest.
+  (2) Every person arrested and detained shall be produced before a magistrate
+      within 24 hours of arrest.
+  (3) No person shall be detained beyond the said period without authority
+      of a magistrate.
+  (4) No preventive detention shall exceed three months [as amended].
+
+ARTICLE 10-A — RIGHT TO FAIR TRIAL
+  [Inserted by 18th Amendment, 2010]
+  For the determination of civil rights and obligations or in any criminal
+  charge, every person shall be entitled to a fair trial and due process.
+
+ARTICLE 11 — SLAVERY, FORCED LABOUR AND CHILD LABOUR PROHIBITED
+  (1) Slavery is non-existent and forbidden; no law shall permit its introduction.
+  (2) All forms of forced labour and traffic in human beings are prohibited.
+  (3) No child below the age of fourteen years shall be engaged in any factory,
+      mine, or any other hazardous employment.
+
+ARTICLE 12 — PROTECTION AGAINST RETROSPECTIVE PUNISHMENT
+  No person shall be punished for an act that was not an offence at the time
+  of its commission, or by a penalty greater than prescribed at that time.
+
+ARTICLE 13 — PROTECTION AGAINST DOUBLE PUNISHMENT AND SELF-INCRIMINATION
+  No person shall be prosecuted or punished for the same offence more than
+  once (Double Jeopardy), and no person shall be compelled to be a witness
+  against himself.
+
+ARTICLE 14 — INVIOLABILITY OF DIGNITY OF MAN
+  The dignity of man and, subject to law, the privacy of home, shall be
+  inviolable. No person shall be subjected to torture for the purpose
+  of extracting evidence.
+
+ARTICLE 15 — FREEDOM OF MOVEMENT
+  Every citizen shall have the right to remain in, and move freely
+  throughout, Pakistan, and to reside and settle in any part thereof.
+
+ARTICLE 16 — FREEDOM OF ASSEMBLY
+  Every citizen shall have the right to assemble peacefully and without
+  arms, subject to reasonable restrictions in the interest of public order.
+
+ARTICLE 17 — FREEDOM OF ASSOCIATION
+  (1) Every citizen shall have the right to form associations or unions,
+      subject to reasonable restrictions in the interest of sovereignty or
+      integrity of Pakistan, public order or morality.
+  (2) Every citizen, not being in the service of Pakistan, shall have the
+      right to form or be a member of a political party, subject to law.
+  (3) Every political party shall account for the source of its funds.
+  (4) Every political party shall hold intra-party elections to elect its
+      office-bearers and party leaders.
+
+ARTICLE 18 — FREEDOM OF TRADE, BUSINESS OR PROFESSION
+  Every citizen shall have the right to enter upon any lawful profession
+  or occupation and to conduct any lawful trade or business.
+
+ARTICLE 19 — FREEDOM OF SPEECH
+  Every citizen shall have the right to freedom of speech and expression,
+  and there shall be freedom of the press, subject to reasonable restrictions
+  imposed by law in the interest of sovereignty and integrity of Pakistan,
+  security of the State, friendly relations with foreign States, public order,
+  decency or morality, or in relation to contempt of court or defamation.
+
+ARTICLE 19-A — RIGHT TO INFORMATION
+  [Inserted by 18th Amendment, 2010]
+  Every citizen shall have the right to have access to information in all
+  matters of public importance subject to regulation and reasonable
+  restrictions imposed by law.
+
+ARTICLE 20 — FREEDOM TO PROFESS RELIGION AND TO MANAGE RELIGIOUS INSTITUTIONS
+  Subject to law, public order and morality:
+    (a) Every citizen shall have the right to profess, practice and propagate
+        his religion; and
+    (b) Every religious denomination and every sect thereof shall have the
+        right to establish, maintain and manage its religious institutions.
+
+ARTICLE 21 — SAFEGUARD AGAINST TAXATION FOR PURPOSES OF ANY PARTICULAR RELIGION
+  No person shall be compelled to pay any special tax, the proceeds of which
+  are to be spent on the propagation or maintenance of any religion other
+  than his own.
+
+ARTICLE 22 — SAFEGUARDS AS TO EDUCATIONAL INSTITUTIONS
+  No person attending any educational institution shall be required to receive
+  religious instruction or take part in any religious ceremony relating to a
+  religion other than his own.
+
+ARTICLE 23 — PROVISION AS TO PROPERTY
+  Every citizen shall have the right to acquire, hold and dispose of property
+  in any part of Pakistan, subject to the Constitution and any reasonable
+  restrictions imposed by law in the public interest.
+
+ARTICLE 24 — PROTECTION OF PROPERTY RIGHTS
+  No person shall be deprived of his property save in accordance with law.
+  No property shall be compulsorily acquired or taken possession of save
+  for a public purpose and with compensation.
+
+ARTICLE 25 — EQUALITY OF CITIZENS
+  (1) All citizens are equal before law and are entitled to equal protection of law.
+  (2) There shall be no discrimination on the basis of sex alone.
+  (3) Nothing prevents the State from making special provision for the
+      protection of women and children.
+
+ARTICLE 25-A — RIGHT TO EDUCATION
+  [Inserted by 18th Amendment, 2010]
+  The State shall provide free and compulsory education to all children
+  of the age of five to sixteen years in such manner as may be determined
+  by law.
+
+ARTICLE 26 — NON-DISCRIMINATION IN ACCESS TO PUBLIC PLACES
+  No discrimination against any citizen on the ground of race, religion,
+  caste, sex, residence or place of birth in respect of access to places
+  of public entertainment or resort not intended for religious purposes only.
+
+ARTICLE 27 — SAFEGUARD AGAINST DISCRIMINATION IN SERVICES
+  No citizen otherwise qualified for appointment in the service of Pakistan
+  shall be discriminated against on grounds of race, religion, caste, sex,
+  residence or place of birth.
+
+ARTICLE 28 — PRESERVATION OF LANGUAGE, SCRIPT AND CULTURE
+  Subject to Article 251, any section of citizens having a distinct language,
+  script or culture shall have the right to preserve and promote the same.
+
+------------------------------------------------------------------------
+PART III — PRINCIPLES OF POLICY (Articles 29–40)
+------------------------------------------------------------------------
+
+ARTICLE 29 — PRINCIPLES OF POLICY
+  It is the responsibility of each organ and authority of the State and
+  of each person performing functions on behalf of an organ or authority
+  of the State to act in accordance with the Principles of Policy.
+
+ARTICLE 31 — ISLAMIC WAY OF LIFE
+  Steps shall be taken to enable Muslims to order their lives in accordance
+  with the fundamental principles and basic concepts of Islam.
+
+ARTICLE 32 — PROMOTION OF LOCAL GOVERNMENT INSTITUTIONS
+  The State shall encourage local Government institutions composed of
+  elected representatives of the areas concerned.
+
+ARTICLE 33 — PAROCHIALISM, RACIAL, TRIBAL, SECTARIAN AND PROVINCIAL PREJUDICES
+  The State shall discourage parochial, racial, tribal, sectarian and
+  provincial prejudices among citizens.
+
+ARTICLE 34 — FULL PARTICIPATION OF WOMEN IN NATIONAL LIFE
+  Steps shall be taken to ensure full participation of women in all spheres
+  of national life.
+
+ARTICLE 35 — PROTECTION OF FAMILY, ETC.
+  The State shall protect the marriage, the family, the mother and the child.
+
+ARTICLE 37 — PROMOTION OF SOCIAL JUSTICE AND ERADICATION OF SOCIAL EVILS
+  The State shall provide basic necessities of life to citizens irrespective
+  of sex, caste, creed or race who are unable to earn their livelihood.
+
+ARTICLE 38 — PROMOTION OF SOCIAL AND ECONOMIC WELL-BEING
+  The State shall secure the well-being of the people irrespective of sex,
+  caste, creed or race by preventing concentration of wealth and means of
+  production and distribution.
+
+------------------------------------------------------------------------
+PART IV — THE FEDERATION OF PAKISTAN (Articles 41–100)
+------------------------------------------------------------------------
+
+ARTICLE 41 — THE PRESIDENT
+  There shall be a President of Pakistan who shall be the Head of State
+  and shall represent the unity of the Republic.
+  Qualifications: Muslim, citizen, not less than 45 years, qualified for
+  election to the National Assembly.
+  Term: 5 years. Elected by Electoral College (Parliament + Provincial Assemblies).
+
+ARTICLE 46 — PRIME MINISTER TO KEEP PRESIDENT INFORMED
+  The Prime Minister shall keep the President informed on all matters of
+  internal and foreign policy and on all legislative proposals the Federal
+  Government intends to bring before Parliament.
+
+ARTICLE 50 — MAJLIS-E-SHOORA (PARLIAMENT)
+  There shall be a Majlis-e-Shoora (Parliament) of Pakistan consisting of:
+    (a) The President; and
+    (b) Two Houses to be known as the National Assembly (Lower House) and
+        the Senate (Upper House).
+
+ARTICLE 51 — THE NATIONAL ASSEMBLY
+  The National Assembly shall consist of 336 members (as per 25th Amendment).
+  Directly elected from single member constituencies.
+  Reserved seats for women and non-Muslims allocated by law.
+
+ARTICLE 59 — THE SENATE
+  The Senate shall consist of 96 members.
+  Each Province shall have equal representation in the Senate.
+  Senate represents federating units; cannot be dissolved.
+
+ARTICLE 90 — FEDERAL GOVERNMENT
+  The executive authority of the Federation shall be exercised in the name
+  of the President by the Federal Government consisting of the Prime Minister
+  and Federal Ministers.
+
+ARTICLE 91 — THE CABINET
+  There shall be a Cabinet of Ministers, with the Prime Minister at its head,
+  to aid and advise the President in the exercise of his functions.
+  The Prime Minister shall be a member of the National Assembly, a Muslim,
+  of good character, not profligate, not convicted of moral turpitude.
+
+------------------------------------------------------------------------
+PART V — PARLIAMENT (Articles 101–174)
+------------------------------------------------------------------------
+
+ARTICLE 111 — ADDRESS BY PRESIDENT
+  The President may address either House or both Houses assembled together
+  and for that purpose require the attendance of members.
+
+ARTICLE 116 — ASSENT TO BILLS
+  When a Bill has been passed by both Houses, it shall be presented to
+  the President for assent.
+
+ARTICLE 160 — NATIONAL FINANCE COMMISSION
+  The President shall constitute a National Finance Commission consisting
+  of the Minister of Finance of the Federal Government, Ministers of Finance
+  of the Provincial Governments, and such other persons as the President
+  may appoint. Commission shall make recommendations on distribution of
+  revenues between Federation and Provinces.
+
+------------------------------------------------------------------------
+PART VI — JUDICIARY (Articles 175–212)
+------------------------------------------------------------------------
+
+ARTICLE 175 — ESTABLISHMENT AND JURISDICTION OF COURTS
+  (1) There shall be a Supreme Court of Pakistan.
+  (2) There shall be a High Court for each Province.
+  (3) The judiciary shall be separated from the executive progressively.
+
+ARTICLE 176 — CONSTITUTION OF SUPREME COURT
+  The Supreme Court shall consist of a Chief Justice to be known as the
+  Chief Justice of Pakistan, and such other Judges as may be determined
+  by Act of Parliament.
+
+ARTICLE 184 — ORIGINAL JURISDICTION OF SUPREME COURT
+  The Supreme Court shall have original jurisdiction to enforce fundamental
+  rights if it considers a question of public importance is involved.
+  [Suo Motu powers vested under this Article.]
+
+ARTICLE 185 — APPELLATE JURISDICTION OF SUPREME COURT
+  The Supreme Court shall have jurisdiction to hear and determine appeals
+  from any judgment, decree, order or sentence of a High Court.
+
+ARTICLE 199 — JURISDICTION OF HIGH COURT
+  A High Court may issue to any person or authority, including the Government:
+    (a) A direction ordering the performance of any specific duty;
+    (b) A writ of Habeas Corpus;
+    (c) A writ of Mandamus;
+    (d) A writ of Certiorari;
+    (e) A writ of Quo Warranto; and
+    (f) A writ of Prohibition.
+
+ARTICLE 203-A TO 203-J — FEDERAL SHARIAT COURT
+  There shall be a Federal Shariat Court consisting of not more than eight
+  Muslim Judges including the Chief Justice.
+  The Court shall examine and decide whether any law is repugnant to the
+  injunctions of Islam as laid down in the Holy Quran and Sunnah.
+
+ARTICLE 209 — SUPREME JUDICIAL COUNCIL
+  There shall be a Supreme Judicial Council of Pakistan consisting of:
+    - Chief Justice of Pakistan (Chairman)
+    - Two next most senior Judges of the Supreme Court
+    - Chief Justices of the two most senior High Courts
+  The Council investigates misconduct of judges of the Supreme Court
+  and High Courts.
+
+------------------------------------------------------------------------
+PART VII — ELECTIONS (Articles 213–226)
+------------------------------------------------------------------------
+
+ARTICLE 213 — ELECTION COMMISSION OF PAKISTAN
+  There shall be an Election Commission of Pakistan consisting of:
+    - A Chairman (Chief Election Commissioner), and
+    - Four Members, one from each Province.
+  The Chief Election Commissioner shall be a person who has been a Judge
+  of the Supreme Court.
+
+ARTICLE 218 — CONDUCT OF ELECTIONS
+  The Election Commission shall be responsible for organizing and conducting
+  elections to the National Assembly, Senate and Provincial Assemblies.
+
+------------------------------------------------------------------------
+PART VIII — ISLAMIC PROVISIONS (Articles 227–231)
+------------------------------------------------------------------------
+
+ARTICLE 227 — PROVISIONS RELATING TO THE QURAN AND SUNNAH
+  All existing laws shall be brought in conformity with the Injunctions
+  of Islam as laid down in the Holy Quran and Sunnah, and no law shall
+  be enacted which is repugnant to such Injunctions.
+
+ARTICLE 228 — COUNCIL OF ISLAMIC IDEOLOGY
+  There shall be a Council of Islamic Ideology consisting of not more than
+  twenty members, including at least one woman, appointed by the President
+  after consultation with the Prime Minister.
+
+------------------------------------------------------------------------
+PART IX — EMERGENCY PROVISIONS (Articles 232–237)
+------------------------------------------------------------------------
+
+ARTICLE 232 — PROCLAMATION OF EMERGENCY
+  If the President is satisfied that a grave emergency exists in which the
+  security or economic life of Pakistan, or any part thereof, is threatened
+  by war or external aggression or by internal disturbance beyond the power
+  of a Provincial Government to control, he may issue a Proclamation of
+  Emergency.
+
+ARTICLE 234 — EMERGENCY POWERS TO FEDERATION
+  While a Proclamation of Emergency is in operation relating to a Province,
+  the executive authority of the Federation shall extend to giving of
+  directions to the Province as to the manner in which its executive
+  authority is to be exercised.
+
+------------------------------------------------------------------------
+PART XII — MISCELLANEOUS (Articles 255–280)
+------------------------------------------------------------------------
+
+ARTICLE 260 — DEFINITIONS
+  "The State" includes: Federal Government, Majlis-e-Shoora (Parliament),
+  Provincial Governments, Provincial Assemblies and Local Authorities.
+
+ARTICLE 268 — CONTINUATION OF EXISTING LAWS
+  All laws in force immediately before the commencing day shall continue
+  in force subject to the Constitution.
+
+ARTICLE 270-AA — VALIDATION OF LAWS, ETC.
+  Relates to the validation of laws made during certain periods.
+
+------------------------------------------------------------------------
+NOTABLE CONSTITUTIONAL AMENDMENTS (Selected)
+------------------------------------------------------------------------
+
+1st Amendment (1974)  — Ahmadiyya declared Non-Muslim minority.
+4th Amendment (1975)  — Detention laws modified.
+8th Amendment (1985)  — Shifted power to President; Art.58(2)(b) added
+                         (President could dissolve National Assembly).
+13th Amendment (1997) — Removed Art.58(2)(b); restored parliamentary supremacy.
+17th Amendment (2003) — Reinstituted some presidential powers; LFO incorporated.
+18th Amendment (2010) — Restored parliamentary government; eliminated Concurrent
+                         Legislative List; Article 10-A, 19-A, 25-A inserted.
+19th Amendment (2010) — Revised procedure for appointment of judges.
+20th Amendment (2012) — Caretaker government mechanism for elections.
+21st Amendment (2015) — Allowed military courts for terrorism cases (expired 2017).
+25th Amendment (2018) — Mainstreamed FATA into KPK.
+26th Amendment (2024) — Reformed higher judiciary; Constitutional Benches created.
+27th Amendment (2025) — Introduced Federal Constitutional Court; defined tenure of
+                         Armed Forces chiefs; legal protections for the President.
+
+------------------------------------------------------------------------
+FEDERAL LEGISLATIVE LISTS
+------------------------------------------------------------------------
+
+FIRST SCHEDULE — Fourth Schedule to Constitution:
+FEDERAL LEGISLATIVE LIST (Part I) includes:
+  - Defence, Armed Forces
+  - External Affairs, treaties
+  - Posts and Telegraphs
+  - Nuclear energy
+  - Atomic energy minerals
+  - Currency, coinage
+  - Public debt of the Federation
+  - Federal railways
+  - Highways and national roads
+  - Ports and harbours
+  - Civil aviation, airports
+  - Maritime shipping
+  - Citizenship, naturalization
+  - Immigration and aliens
+  - Foreign exchange
+  - Corporations with branches in more than one Province
+  - Stock exchanges
+  - Census
+
+FEDERAL LEGISLATIVE LIST (Part II) includes:
+  - Taxes on income
+  - Import and export duties
+  - Estate duty
+  - Foreign loans
+
+================================================================================
+                   PART II: CRIMINAL LAW
+================================================================================
+
+------------------------------------------------------------------------
+A. PAKISTAN PENAL CODE, 1860 (PPC)
+   [Act XLV of 1860 | 6 October 1860 | As amended to date]
+   [23 Chapters | 511 Sections | Jurisdiction: Whole of Pakistan]
+   [Source: pakistancode.gov.pk | pakistani.org]
+------------------------------------------------------------------------
+
+PREAMBLE: Whereas it is expedient to provide a general Penal Code for Pakistan.
+
+CHAPTER I — INTRODUCTION
+  Section 1 — Title and Extent: This Act shall be called the Pakistan Penal
+    Code and shall take effect throughout Pakistan.
+  Section 2 — Punishment within Pakistan: Every person shall be liable to
+    punishment for every act or omission contrary to provisions hereof
+    of which he shall be guilty within Pakistan.
+  Section 3 — Extra-territorial Offences: Covers persons who commit offences
+    beyond Pakistan but which may be tried within Pakistan by law.
+  Section 4 — Extension to Extra-territorial Offences: Covers offences
+    committed on ships or aircraft registered in Pakistan.
+  Section 5 — Certain Laws Not Affected: The Code does not affect Indian
+    Articles of War (applicable to armed forces) or court martial laws.
+
+CHAPTER II — GENERAL EXPLANATIONS (Sections 6–52A)
+  Section 6 — Definitions subject to exceptions and provisions.
+  Section 8 — "Gender" — masculine gender imports the feminine also.
+  Section 10 — "Man" includes male of any age; "Woman" any female of any age.
+  Section 11 — "Person" includes company, association or body of persons.
+  Section 21 — "Public Servant" — includes judges, police, government servants.
+  Section 34 — ACTS DONE BY SEVERAL PERSONS IN FURTHERANCE OF COMMON INTENTION:
+    When a criminal act is done by several persons in furtherance of the
+    common intention of all, each of such persons is liable for that act
+    in the same manner as if it were done by him alone.
+
+CHAPTER III — PUNISHMENTS (Sections 53–75)
+  Section 53 — Punishments: The punishments to which offenders are liable:
+    (a) Death;
+    (b) Imprisonment for life;
+    (c) Rigorous imprisonment (with hard labour);
+    (d) Simple imprisonment;
+    (e) Forfeiture of property;
+    (f) Fine;
+    (g) Hadd (as prescribed by Islamic law);
+    (h) Tazir (discretionary punishment);
+    (i) Whipping (where prescribed under special laws).
+  Section 54 — Commutation of sentence of death.
+  Section 57 — Fractions of terms of punishment.
+  Section 63 — Fine — where term in default of fine is not expressed.
+  Section 71 — Limit of punishment of offence made up of several offences.
+  Section 73 — Solitary confinement.
+  Section 75 — Enhanced punishment for certain offences after previous conviction.
+
+CHAPTER IV — GENERAL EXCEPTIONS (Sections 76–106)
+  Section 76 — Act done by a person bound by law.
+  Section 77 — Act of judge when acting judicially.
+  Section 78 — Act done pursuant to order or judgment of Court.
+  Section 79 — Act done by a person justified by law.
+  Section 80 — Accident in doing a lawful act.
+  Section 81 — Act likely to cause harm but done without criminal intent.
+  Section 82 — Act of a child under seven years of age — No offence.
+  Section 83 — Act of child above 7 and under 12 of immature understanding.
+  Section 84 — Act of a person of unsound mind — Not an offence.
+  Section 85 — Act of a person incapable due to intoxication against his will.
+  Section 96 — Things done in private defence — Not an offence.
+  Section 100 — When the right of private defence of the body extends to
+    causing death: Assault reasonably causing apprehension of death, grievous
+    hurt, rape, kidnapping, abduction, or acid attack.
+  Section 105 — Commencement and continuation of the right of private defence
+    of property.
+
+CHAPTER VI — OFFENCES AGAINST THE STATE (Sections 121–130)
+  Section 121 — Waging war against Pakistan: Punishment — DEATH or
+    imprisonment for life, plus fine.
+  Section 121-A — Conspiracy to commit offences under Section 121:
+    Punishment — Death or imprisonment for life or up to 10 years, plus fine.
+  Section 122 — Collecting arms with intention of waging war: Imprisonment
+    for life or up to 10 years, plus fine.
+  Section 123 — Concealment of design to wage war: Imprisonment up to 10 years
+    plus fine.
+  Section 123-A — Condemning the creation of Pakistan: Imprisonment up to 10
+    years and fine. [Inserted 1950]
+  Section 124-A — Sedition: Whoever by words, spoken or written, or signs, or
+    visible representation, excites or attempts to excite disaffection towards
+    the Government shall be punished with imprisonment for life or for 3 years.
+
+CHAPTER VII — OFFENCES RELATING TO THE ARMY, NAVY AND AIR FORCE
+  Section 131 — Abetting mutiny, attempt to seduce soldier or sailor from duty:
+    Death or imprisonment for life.
+
+CHAPTER VIII — OFFENCES AGAINST PUBLIC TRANQUILLITY
+  Section 141 — UNLAWFUL ASSEMBLY: An assembly of five or more persons is
+    "unlawful assembly" if the common object is to:
+    - Overawe Government or Legislature by criminal force or show thereof;
+    - Resist execution of legal process;
+    - Commit mischief or criminal trespass;
+    - Obtain by force possession of property.
+  Section 143 — Punishment for unlawful assembly: Up to 6 months or fine or both.
+  Section 144 — Joining assembly with deadly weapon: Up to 2 years or fine or both.
+  Section 147 — Rioting: Up to 2 years or fine or both.
+  Section 148 — Rioting armed with deadly weapon: Up to 3 years or fine or both.
+  Section 149 — Every member of unlawful assembly guilty of offence committed
+    in prosecution of common object.
+
+CHAPTER IX — OFFENCES BY OR RELATING TO PUBLIC SERVANTS
+  Section 161 — Public servant taking gratification other than legal remuneration
+    in respect of official act: Up to 3 years or fine or both.
+  Section 166 — Public servant disobeying law with intent to cause injury: Up
+    to 1 year or fine or both.
+  Section 167 — Public servant framing incorrect document: Up to 3 years or fine.
+  Section 168 — Public servant unlawfully engaging in trade: Up to 1 year or fine.
+
+CHAPTER X — CONTEMPT OF LAWFUL AUTHORITY OF PUBLIC SERVANTS
+  Section 172 — Absconding to avoid service of summons: Fine up to 500 rupees.
+  Section 174 — Non-attendance in obedience to summons: Fine up to 500 rupees.
+  Section 175 — Omission to produce document: Fine up to 1000 rupees.
+  Section 179 — Refusing to answer public servant authorised to question:
+    Up to 6 months or fine.
+  Section 182 — False information to public servant: Up to 6 months or fine.
+  Section 186 — Obstructing public servant in discharge of public functions:
+    Up to 3 months or fine up to 500 rupees or both.
+  Section 189 — Threat of injury to public servant: Up to 2 years or fine.
+
+CHAPTER XI — FALSE EVIDENCE AND OFFENCES AGAINST PUBLIC JUSTICE
+  Section 191 — Giving false evidence (Perjury): Punishable under Section 193.
+  Section 193 — Punishment for false evidence: Up to 7 years and fine.
+  Section 194 — Giving or fabricating false evidence with intent to procure
+    conviction of capital offence: Death or imprisonment for life or up to
+    10 years plus fine.
+  Section 201 — Causing disappearance of evidence of offence or giving false
+    information to screen offender.
+  Section 202 — Intentional omission to give information of offence by
+    person bound to inform.
+  Section 204 — Destruction of document to prevent its production as evidence.
+
+CHAPTER XII — OFFENCES RELATING TO COIN AND GOVERNMENT STAMPS
+  Section 231 — Counterfeiting coin: Up to 7 years and fine.
+  Section 232 — Counterfeiting Pakistani coin: Up to 10 years and fine.
+
+CHAPTER XIV — OFFENCES AFFECTING PUBLIC HEALTH, SAFETY, CONVENIENCE
+  Section 268 — Public nuisance defined.
+  Section 269 — Negligent act likely to spread infection: Up to 6 months or fine.
+  Section 272 — Adulteration of food or drink intended for sale: Up to 6 months
+    or fine or both.
+  Section 279 — Rash driving or riding on a public way: Up to 6 months or fine.
+  Section 281 — Exhibition of false light, mark or buoy: Up to 7 years or fine.
+
+CHAPTER XV — OFFENCES RELATING TO RELIGION (Sections 295–298)
+  Section 295 — Injuring or defiling place of worship: Up to 2 years or fine.
+  Section 295-A — Deliberate and malicious acts to outrage religious feelings:
+    Up to 10 years or fine or both.
+  Section 295-B — Defiling copy of Holy Quran:
+    Punishment — Imprisonment for life.
+  Section 295-C — Use of derogatory remarks in respect of the Holy Prophet (PBUH):
+    Punishment — DEATH and fine. [Blasphemy Law]
+  Section 296 — Disturbing religious assembly: Up to 1 year or fine or both.
+  Section 297 — Trespassing on burial places: Up to 1 year or fine or both.
+  Section 298 — Uttering words with intent to wound religious feelings: Up to
+    1 year or fine or both.
+  Section 298-A — Use of derogatory remarks in respect of Holy Personages:
+    Up to 3 years or fine or both.
+  Section 298-B & 298-C — Misuse of epithets and descriptions sacred to Muslims
+    by Qadianis: Up to 3 years and fine.
+
+CHAPTER XVI — OFFENCES AFFECTING THE HUMAN BODY (Sections 299–377)
+
+OFFENCES RELATING TO HUMAN BODY:
+
+  Section 299 — Definitions:
+    "Amd" — intentional; "Shibh-i-Amd" — intentional without intention to kill;
+    "Khata" — mistake; "Hadd" — punishment ordained by Holy Quran;
+    "Tazir" — punishment at discretion of court; "Diyat" — compensation
+    paid to heirs of victim; "Arsh" — compensation for bodily hurt.
+
+  Section 300 — QATL-I-AMAL (MURDER): Whoever causes death of a person
+    commits Qatl-i-Amd.
+  Section 302 — Punishment for Qatl-i-Amd (Murder):
+    (a) Qisas — death as Hadd;
+    (b) If waived by heirs — Diyat; or
+    (c) Tazir — death or imprisonment for life where proof in Hadd not
+        available but act proved beyond doubt.
+  Section 306 — Qatl Shibh-i-Amd (intentional but without intent to kill):
+    Diyat and Tazir.
+  Section 320 — Grievous Hurt: Causing hurt to the extent specified.
+  Section 322 — Qatl-i-Khata (culpable homicide by mistake): Diyat.
+  Section 325 — Punishment for Ghayar-i-Jaifah (non-penetrating hurt):
+    Arsh (specified compensation).
+
+OFFENCES RELATING TO RAPE (As amended by Criminal Law Amendment Acts 2016 & 2021):
+  Section 375 — RAPE: A man is said to commit rape who has sexual intercourse
+    with a woman without her consent or against her will, or by putting her
+    in fear of death, or when she is unable to give consent.
+    [Includes gang rape; child rape; rape by armed forces members in custody]
+  Section 376 — Punishment for Rape:
+    - Simple rape: Death or imprisonment not less than 10 years but up to 25 years.
+    - Gang rape: Death or imprisonment for life (each offender).
+    - Rape of child: Death or imprisonment not less than 25 years.
+    [Offender may be chemically castrated per discretion of court — 2021 Amendment]
+
+OFFENCES RELATING TO KIDNAPPING AND ABDUCTION:
+  Section 359 — Kidnapping: From Pakistan, or from lawful guardianship.
+  Section 363 — Punishment for kidnapping: Up to 7 years and fine.
+  Section 364 — Kidnapping or abducting in order to murder: Imprisonment for life
+    or rigorous imprisonment up to 14 years plus fine.
+  Section 364-A — Kidnapping for ransom: DEATH or imprisonment for life.
+  Section 365 — Kidnapping or abducting with intent to secretly and wrongfully
+    confine person: Up to 7 years plus fine.
+  Section 365-A — Kidnapping for extortion: Death or imprisonment for life.
+  Section 365-B — Kidnapping, abducting or inducing woman to compel for marriage:
+    Up to 25 years or fine or both. [Amended 2021]
+  Section 369 — Kidnapping or abducting child under 10 for taking property:
+    Up to 7 years plus fine.
+
+OFFENCES AGAINST PROPERTY (Sections 378–462):
+  Section 378 — THEFT: Whoever intending to take dishonestly any moveable
+    property out of the possession of any person without that person's consent
+    is said to commit theft.
+  Section 379 — Punishment for theft: Up to 3 years or fine or both.
+    [Hadd for theft under Islamic law administered separately]
+  Section 380 — Theft in dwelling house: Up to 7 years plus fine.
+  Section 381 — Theft by clerk or servant: Up to 7 years plus fine.
+  Section 382 — Theft after preparation for causing death, hurt or restraint:
+    Up to 10 years plus fine.
+  Section 383 — EXTORTION: Whoever intentionally puts any person in fear of
+    injury to that person or to any other and thereby dishonestly induces that
+    person to deliver any property commits extortion.
+  Section 384 — Punishment for extortion: Up to 3 years or fine or both.
+  Section 385 — Extortion by putting person in fear of death or grievous hurt:
+    Up to 10 years plus fine.
+  Section 390 — ROBBERY: Theft is robbery if in committing theft the offender
+    causes or attempts to cause death, hurt or wrongful restraint.
+  Section 392 — Punishment for robbery: Up to 10 years plus fine; if on
+    highway between sunset and sunrise — up to 14 years.
+  Section 395 — DACOITY: Robbery committed by five or more persons.
+    Punishment: Imprisonment for life or rigorous imprisonment up to 10 years
+    plus fine.
+  Section 396 — Dacoity with murder: Death or imprisonment for life.
+  Section 406 — CRIMINAL BREACH OF TRUST: Punishment — Up to 3 years or fine.
+  Section 408 — Criminal breach of trust by carrier, wharfinger, etc.: Up to
+    7 years plus fine.
+  Section 409 — Criminal breach of trust by public servant or banker: Up to
+    10 years plus fine.
+  Section 415 — CHEATING: Whoever by deceiving any person, fraudulently or
+    dishonestly induces that person to deliver any property or to do or omit
+    to do anything commits cheating.
+  Section 417 — Punishment for cheating: Up to 1 year or fine or both.
+  Section 418 — Cheating with knowledge that wrongful loss may ensue: Up to
+    3 years or fine or both.
+  Section 420 — Cheating and dishonestly inducing delivery of property: Up to
+    7 years plus fine.
+  Section 421 — Dishonest or fraudulent removal or concealment of property.
+  Section 425 — MISCHIEF: Whoever causes wrongful loss or damage to public
+    or private property.
+  Section 426 — Punishment for mischief: Up to 3 months or fine or both.
+  Section 435 — Mischief by fire or explosive substance (damage up to 100
+    rupees): Up to 7 years plus fine.
+  Section 436 — Mischief by fire (house, etc.): Imprisonment for life or
+    up to 10 years plus fine.
+  Section 441 — CRIMINAL TRESPASS: Entering on property of another with
+    intent to commit an offence or to intimidate, insult or annoy.
+  Section 447 — Punishment for criminal trespass: Up to 3 months or fine.
+  Section 448 — Punishment for house-trespass: Up to 1 year or fine or both.
+  Section 452 — House-trespass after preparation for hurt, assault or
+    wrongful restraint: Up to 7 years plus fine.
+
+OFFENCES RELATING TO DOCUMENTS (Sections 463–489-F):
+  Section 463 — FORGERY: Whoever makes any false document with intent to cause
+    damage to any person or support any claim or title or commit fraud.
+  Section 465 — Punishment for forgery: Up to 2 years or fine or both.
+  Section 466 — Forgery of record of court or public register: Up to 7 years.
+  Section 467 — Forgery of valuable security, will, etc.: Up to 10 years.
+  Section 468 — Forgery for purpose of cheating: Up to 7 years plus fine.
+  Section 471 — Using as genuine a forged document: Same as for forgery.
+  Section 489-A — COUNTERFEITING CURRENCY NOTES OR BANK NOTES:
+    Imprisonment for life or up to 10 years plus fine.
+  Section 489-B — Using as genuine forged or counterfeit notes: Same.
+  Section 489-C — Possession of forged or counterfeit currency: Up to 7 years.
+  Section 489-F — DISHONESTLY ISSUING A CHEQUE (Bounced Cheque): Up to 3 years
+    or twice the amount of cheque as fine or both.
+
+CHAPTER XX — OFFENCES RELATING TO MARRIAGE (Sections 493–498-B)
+  Section 494 — Marrying again during lifetime of husband or wife (Bigamy):
+    Up to 7 years plus fine. [But polygamy per MFLO is regulated separately]
+  Section 496 — Marriage ceremony fraudulently gone through: Up to 7 years.
+  Section 498-A — Prohibition of depriving women from inheriting property:
+    Up to 5 years or fine up to 500,000 rupees or both. [Inserted 2011]
+  Section 498-B — Offence of forced marriage: Up to 7 years or fine or both.
+  Section 498-C — OFFENCE OF MARRIAGE WITH THE HOLY QURAN: Up to 3 years
+    or fine up to 500,000 rupees or both. [Inserted 2011]
+
+CHAPTER XXI — DEFAMATION (Sections 499–502)
+  Section 499 — DEFAMATION: Whoever by words (spoken or written), signs or
+    visible representations makes or publishes any imputation concerning any
+    person intending to harm, or knowing it will harm the reputation of such
+    person commits defamation.
+  Section 500 — Punishment for defamation: Up to 2 years or fine or both.
+  Section 501 — Printing or engraving matter known to be defamatory: Same.
+  Section 502 — Sale of printed or engraved substance containing defamatory
+    matter: Up to 2 years or fine or both.
+
+CHAPTER XXII — CRIMINAL INTIMIDATION AND RELATED OFFENCES
+  Section 503 — CRIMINAL INTIMIDATION: Threatening injury to person, property
+    or reputation to cause alarm or do any act or omission injurious to him.
+  Section 506 — Punishment for criminal intimidation: Up to 2 years or fine
+    or both; if threat of death or grievous hurt — up to 7 years.
+  Section 507 — Criminal intimidation by anonymous communication: Up to 2 years.
+  Section 509 — Word, gesture or act intended to insult modesty of a woman:
+    Up to 1 year or fine or both.
+  Section 511 — Punishment for attempt to commit offences punishable with
+    imprisonment for life: Up to one-half of longest term of imprisonment.
+
+------------------------------------------------------------------------
+B. CODE OF CRIMINAL PROCEDURE, 1898 (Cr.P.C.)
+   [Act V of 1898 | As amended up to 2017]
+   [Jurisdiction: Whole of Pakistan]
+   [Source: rightofassembly.info | pakistani.org]
+------------------------------------------------------------------------
+
+CHAPTER I — PRELIMINARY
+  Section 4 — Definitions:
+    "Bailable offence" — offence for which bail may be taken;
+    "Non-bailable offence" — any other offence;
+    "Cognizable offence" — police may arrest without warrant;
+    "Non-cognizable offence" — police cannot arrest without warrant;
+    "Complaint" — allegation made orally or in writing to a magistrate;
+    "Investigation" — all proceedings under this Code for collection of evidence.
+
+  Section 5 — Trial of offences under Penal Code: All offences under Pakistan
+    Penal Code shall be investigated, inquired into, tried, and dealt with
+    according to provisions of this Code.
+
+CHAPTER II — CONSTITUTION OF CRIMINAL COURTS
+  Section 6 — Classes of Criminal Courts:
+    (i) Courts of Sessions;
+    (ii) Judicial Magistrates (First, Second, Third Class);
+    (iii) Executive Magistrates.
+  Section 28 — Sentences that High Courts may pass: Any sentence authorised by law.
+  Section 30 — Sentences that Sessions Judges may pass: Any sentence authorised
+    by law (except death without High Court confirmation).
+  Section 32 — Sentence of Magistrate of First Class: Up to 5 years rigorous or
+    simple imprisonment; fine up to PKR 100,000.
+
+CHAPTER XIV — CONDITIONS REQUISITE FOR INITIATION OF PROCEEDINGS
+  Section 154 — FIR (FIRST INFORMATION REPORT): Every information relating to
+    commission of a cognizable offence, if given orally to an officer in charge
+    of a police station, shall be reduced to writing by him or under his direction,
+    signed by the person giving it, and substance recorded in the book kept by
+    such officer in the prescribed form.
+  Section 155 — Information as to non-cognizable cases: Police shall record
+    in a book prescribed by the Provincial Government and refer the informant
+    to the Magistrate.
+  Section 156 — Police officer's power to investigate cognizable case: Officer
+    in charge may, without order of magistrate, investigate any cognizable case.
+  Section 157 — Procedure where cognizable offence suspected.
+  Section 161 — Examination of witnesses by police.
+  Section 162 — Statements to police not to be signed; use of statements.
+  Section 164 — Power to record statements and confessions [before Magistrate].
+  Section 167 — Procedure when investigation cannot be completed in 24 hours:
+    Accused to be produced before magistrate; detention for up to 15 days.
+  Section 173 — Report of police officer: Police must send report upon completion
+    of investigation (Challan) to the magistrate.
+
+CHAPTER XV — BAIL (Sections 496–502)
+  Section 496 — Bail in bailable offences: When any person accused of bailable
+    offence is arrested or detained, he shall be released on bail.
+  Section 497 — Bail in non-bailable offences: Person accused of non-bailable
+    offence may be released on bail at discretion of court or police officer.
+    Proviso: No person accused of non-bailable offence punishable with death
+    or imprisonment for life shall be released on bail unless special reasons.
+  Section 498 — Power of High Court and Court of Session to grant bail in
+    non-bailable cases; Anticipatory bail (pre-arrest bail).
+
+CHAPTER XXIII — TRIAL PROCEDURE
+  Section 265-A — SESSIONS TRIAL: Application of Chapter XXIII.
+  Section 265-D — Framing of charge: Court frames charge against accused.
+  Section 265-E — Conviction on plea of guilty.
+  Section 265-F — Evidence for prosecution.
+  Section 265-G — Acquittal: If after prosecution evidence, no case established.
+  Section 265-H — Defence: Accused may adduce evidence in defence.
+  Section 265-K — Judgment: Court pronounces judgment.
+
+  Section 382-B — Period of detention counted towards sentence: Period during
+    which convicted person was detained is counted towards his sentence of
+    imprisonment. [Mandatory provision; courts must apply it.]
+
+CHAPTER XXX — APPEALS
+  Section 408 — Appeals from orders of Magistrates: Lies to Sessions Court.
+  Section 410 — Appeals from convictions: Lies to High Court in cases of Sessions.
+  Section 417 — Appeal by Government from acquittal: Government or complainant
+    may appeal against acquittal to High Court.
+  Section 418 — Appeal on ground of inadequacy of sentence.
+
+------------------------------------------------------------------------
+C. QANUN-E-SHAHADAT ORDER, 1984 (Law of Evidence)
+   [President's Order 10 of 1984 | Replaces Evidence Act 1872]
+------------------------------------------------------------------------
+
+  Article 1 — Short title, extent and commencement: Applies to whole of Pakistan.
+  Article 3 — Interpretation: "Document" includes electronic records.
+  Article 17 — Proof of admission: Facts required to be proved must be proved
+    by evidence of witnesses or documentary evidence.
+  Article 46 — Oral evidence: Oral evidence must in all cases be direct.
+  Article 72 — Documents required by law to be stamped: May be admitted
+    as evidence on payment of duty plus penalty.
+  Article 129 — Privileged communications: Certain communications protected:
+    - Between advocate and client;
+    - Between husband and wife;
+    - Matters of State.
+  Article 133 — Accomplice: Conviction may be made on uncorroborated testimony
+    of accomplice, but courts shall treat such evidence with great caution.
+  Article 163 — Diyat: When Diyat awarded, evidence of both parties considered.
+
+------------------------------------------------------------------------
+D. ANTI-TERRORISM ACT, 1997 (ATA)
+   [Act XXVII of 1997 | As amended to date]
+------------------------------------------------------------------------
+
+  Section 2 — Definitions: "Terrorism" includes use of threat or action involving
+    violence, damage to property, endangering life, creating public fear, or acts
+    designed to coerce a government or public body.
+  Section 6 — Terrorism: An act of terrorism constitutes an offence if it involves
+    serious violence against a person, serious damage to property, endangering
+    life, or creating a serious risk to health or safety of public.
+  Section 7 — Punishment for acts of terrorism:
+    - If person killed: Death or imprisonment for life;
+    - If grievous hurt: Not less than 14 years imprisonment;
+    - Otherwise: Not less than 5 years.
+  Section 11 — Prohibition of outfits and criminal gangs.
+  Section 11-A to 11-EEEE — Proscribed organisations, hate speech.
+  Section 19 — Anti-Terrorism Court (ATC): Establishment, jurisdiction and
+    procedure of special courts for terrorism cases.
+  Section 21 — ATCs are subordinate to the High Court.
+  Section 27 — Bail: In terrorism cases, may only be granted by sessions or
+    higher court; stringent conditions apply.
+  Section 38 — Overriding effect of Act over other laws.
+  Third Schedule — Schedules of terrorist individuals and organizations.
+
+------------------------------------------------------------------------
+E. PREVENTION OF ELECTRONIC CRIMES ACT, 2016 (PECA)
+   [Act XL of 2016]
+------------------------------------------------------------------------
+
+  Section 2 — Definitions: "Cybercrime", "data", "electronic system", etc.
+  Section 3 — Unauthorised access to information system: Up to 3 months or fine.
+  Section 4 — Unauthorised copying or transmission of data: Up to 6 months or fine.
+  Section 5 — Interference with information system or data: Up to 2 years.
+  Section 6 — Electronic fraud: Up to 2 years or fine up to 10 million or both.
+  Section 7 — Electronic forgery: Up to 2 years or fine up to 10 million or both.
+  Section 8 — Misuse of encryption: Up to 3 years.
+  Section 9 — Malicious code: Up to 2 years or fine or both.
+  Section 10 — Cyber terrorism: Up to 14 years or fine up to 50 million or both.
+  Section 11 — Hate speech (electronic): Up to 7 years or fine or both.
+  Section 20 — Offences against dignity of a natural person: Up to 3 years or
+    fine up to 1 million or both. [Controversial; frequently challenged]
+  Section 21 — Cyber stalking: Up to 3 years or fine up to 1 million or both.
+  Section 22 — Spamming: Fine up to 50 million or both.
+  Section 29 — Powers of investigation authority (FIA).
+  Section 31 — Search and seizure.
+  Section 32 — Forensic analysis.
+
+================================================================================
+                   PART III: FEDERAL LAWS
+================================================================================
+
+------------------------------------------------------------------------
+A. INCOME TAX ORDINANCE, 2001
+   [Promulgated 13 September 2001 | In force from 1 July 2002]
+   [FBR (Federal Board of Revenue) is the administering authority]
+   [As amended up to 31 July 2025 | Source: fbr.gov.pk | pakistancode.gov.pk]
+------------------------------------------------------------------------
+
+CHAPTER 1 — PRELIMINARY
+  Section 1 — Short title, extent and commencement.
+  Section 2 — Definitions:
+    "Filer" — taxpayer whose name appears in the Active Taxpayers' List (ATL);
+    "Income" — includes salary, business income, property income, capital gains;
+    "Non-filer" — a person who is not a filer (category introduced 2013);
+    "Resident" — a person who is in Pakistan for 183+ days in a tax year;
+    "Permanent Establishment" — fixed place of business through which business
+      is wholly or partly carried on.
+  Section 4 — Tax on taxable income.
+  Section 5 — Tax on dividends.
+  Section 5-A — Tax on undistributed reserves: 10% on every public company
+    that does not distribute 40% of its after-tax profit as dividend.
+  Section 6 — Tax on payments to non-residents.
+
+CHAPTER II — CHARGE TO TAX
+  Section 9 — Taxable income: Total income reduced by deductible allowances.
+  Section 10 — Total income: Sum of all income under all heads.
+  Section 11 — Heads of Income:
+    (a) Salary;
+    (b) Income from property;
+    (c) Income from business;
+    (d) Capital gains;
+    (e) Income from other sources.
+
+TAX RATES (Per First Schedule as applicable FY 2025-26):
+  - Salaried individuals: Progressive rates (0% to 35% depending on income).
+  - Companies (general): 29% flat rate.
+  - Banking companies: 35%.
+  - Small companies: 20%.
+  - Alternative Corporate Tax (ACT): Higher of 17% of accounting income
+    or corporate tax liability.
+  - Capital Gains Tax: Rate varies by holding period and nature of asset.
+  - Withholding Tax: Prescribed rates on dividends, salaries, contracts, etc.
+
+CHAPTER X — COLLECTION AND RECOVERY OF TAX
+  Section 114 — Return of income: Persons obligated to file annual returns.
+  Section 114-B — Disabling of mobile SIMs, electricity connections, gas
+    connections and restriction on foreign travel for non-filers. [2022]
+  Section 122 — Amendment of assessments by Commissioner.
+  Section 137 — Recovery of tax: Tax is recovered as arrears of land revenue.
+  Section 161 — Failure to collect or deduct tax (withholding agents).
+
+CHAPTER XII — APPEALS
+  Section 127 — Appeal to Commissioner (Appeals): Within 30 days of order.
+  Section 131 — Appeal to Appellate Tribunal Inland Revenue (ATIR).
+  Section 133 — Reference to High Court on question of law.
+  Section 134 — Appeal to Supreme Court.
+
+------------------------------------------------------------------------
+B. SALES TAX ACT, 1990
+   [As amended to date | FBR administers]
+------------------------------------------------------------------------
+
+  Section 2 — Definitions.
+  Section 3 — Scope of tax: Standard rate of 17% on taxable supplies in Pakistan.
+  Section 8 — Input tax: Registered persons may deduct input tax.
+  Section 23 — Tax invoices: Registered person must issue a serially numbered
+    tax invoice for every taxable supply.
+  Section 25 — Audit by tax authorities.
+  Section 33 — Offences and penalties: Up to 5 years imprisonment.
+
+------------------------------------------------------------------------
+C. CUSTOMS ACT, 1969
+   [Act IV of 1969 | As amended to date | FBR administers]
+------------------------------------------------------------------------
+
+  Section 2 — Definitions.
+  Section 3 — Appointment of customs ports and customs airports.
+  Section 15 — Prohibition of imports: Certain goods prohibited from import.
+  Section 16 — Restriction on imports and exports.
+  Section 25 — Determination of customs value of goods.
+  Section 32 — False statement: Fine up to 5 times duty or imprisonment.
+  Section 156 — Offences and penalties:
+    - Smuggling: Fine not less than value of goods or imprisonment or both.
+    - Fraudulent evasion: Up to 5 years plus fine.
+  Section 179 — Adjudication of cases by customs authorities.
+  Section 193 — Appeals to Collector (Appeals).
+  Section 194-A — Appeals to Appellate Tribunal.
+  Section 196 — Reference to High Court.
+
+------------------------------------------------------------------------
+D. NATIONAL ACCOUNTABILITY ORDINANCE, 1999 (NAO / NAB Ordinance)
+   [Ordinance XVIII of 1999 | 16 November 1999]
+   [As amended by NAB Amendment Acts 2022 (restored by Supreme Court 2024)]
+   [Source: sbp.org.pk | pakistani.org | sindhhighcourt.gov.pk]
+------------------------------------------------------------------------
+
+PREAMBLE: To provide for setting up a National Accountability Bureau to eradicate
+corruption and corrupt practices and hold accountable all persons accused of
+such practices and matters ancillary thereto.
+
+  Section 2 — Definitions:
+    "Corruption" — includes taking gratification as motive or reward for doing
+      or forbearing to do any official act; or misuse of power; or having assets
+      beyond known sources of income (unexplained assets);
+    "Holder of Public Office" — includes President, Prime Minister, Ministers,
+      Governors, Members of Parliament, judges, civil servants;
+    [Note: Superior court judges and armed forces personnel are excluded
+     per constitutional provisions — Art. 209 (SJC) and Army Act 1952.]
+
+  Section 4 — Application of Ordinance: Applies to all public office holders
+    and other persons who commit corruption and corrupt practices.
+
+  Section 9 — Corruption and corrupt practices: A holder of public office
+    or any other person is said to be guilty if he:
+    (a) Accepts or obtains any gratification in contravention of law;
+    (b) Accepts any valuable thing without adequate consideration;
+    (c) Dishonestly or fraudulently misappropriates or embezzles property;
+    (d) By corrupt or illegal means obtains from a public servant any public
+        property;
+    (e) Has or had assets or pecuniary resources disproportionate to known
+        sources of income (Reverse burden of proof on accused).
+
+  Section 10 — Punishment for corruption and corrupt practices:
+    - Imprisonment up to 14 years;
+    - Fine;
+    - Disqualification from holding public office.
+
+  Section 12 — Freezing and attachment of assets by Chairman NAB.
+  Section 14 — Voluntary Return / Plea Bargain: Amount of looted money
+    may be recovered without prosecution if accepted by Chairman NAB.
+  Section 15 — ARREST: Chairman NAB may authorise arrest.
+  Section 16 — Reference before Accountability Court by NAB.
+  Section 21 — Jurisdiction of Accountability Courts: Special courts.
+  Section 25 — Onus of proof: Where assets are disproportionate to income,
+    onus of proof lies on the accused to explain the source.
+  Section 32 — Provisions of Cr.P.C. apply to extent not inconsistent.
+  Section 33 — Overriding effect: Ordinance has effect notwithstanding
+    anything in any other law.
+
+  [2022 AMENDMENTS (Restored by Supreme Court 5-0, September 2024)]:
+  - NAB's jurisdiction limited; Federal cabinet decisions exempted from NAB inquiry.
+  - Threshold for "corruption" raised: cases below PKR 500 million referred
+    to relevant authorities.
+  - Definition of "public office" refined.
+  - Bail conditions eased (accused may not be detained beyond 3 months).
+
+------------------------------------------------------------------------
+E. STATE BANK OF PAKISTAN ACT, 1956
+   [Act XXXIII of 1956 | As amended by State Bank of Pakistan
+    (Amendment) Act, 2021 — which granted greater independence to SBP]
+------------------------------------------------------------------------
+
+  Section 4 — Establishment of State Bank: The State Bank of Pakistan is the
+    central bank of Pakistan.
+  Section 9 — Management of SBP: Managed by a Board of Directors; Governor
+    appointed by President on advice of Prime Minister for 5 years.
+  Section 9-A — Monetary Policy Committee (MPC): Sets monetary policy.
+    [Introduced by 2021 Amendment]
+  Section 20 — SBP's functions:
+    - Regulation of currency and credit;
+    - Maintaining foreign exchange reserves;
+    - Banker and fiscal agent for the Government;
+    - Supervision and regulation of financial institutions.
+  Section 21 — Issue of notes: SBP has exclusive right to issue bank notes.
+  Section 36 — Appointment of statutory auditor.
+  Section 46-I — Prohibition of monetary financing of fiscal deficit.
+    [2021 Amendment — SBP cannot directly lend to Government]
+  Section 46-J — Autonomy of the SBP: Not subject to directions of Federal
+    Government in conduct of monetary policy. [2021 Amendment]
+
+------------------------------------------------------------------------
+F. LABOUR LAWS (Key Federal Statutes)
+------------------------------------------------------------------------
+
+FACTORIES ACT, 1934:
+  Applies to all factories employing 10+ workers.
+  Governs health, safety, welfare, working hours, leave, child labour.
+  Working hours: 48 hours per week; 9 hours per day.
+  Prohibition: Children under 14 years not to work in factories.
+  Annual leave: 14 days for adult workers per year.
+
+INDUSTRIAL RELATIONS ACT, 2012 (IRA):
+  Governs trade unions and collective bargaining at federal level.
+  Covers registration of trade unions; collective bargaining agent (CBA);
+  settlement of disputes; strikes and lockouts.
+
+EMPLOYEES OLD-AGE BENEFITS ACT, 1976 (EOBI):
+  Provides for old-age pension, invalidity pension, survivors' pension,
+  old-age grant for industrial workers.
+  Rate: Contribution 6% of minimum wages (employer); 1% (employee).
+
+MINIMUM WAGES ORDINANCE, 1961:
+  Provides for fixing of minimum wages for unskilled workers.
+  Minimum wage is revised by the Minimum Wages Board periodically.
+  [As of 2024-25: Minimum wage set at PKR 37,000/month]
+
+WORKERS COMPENSATION ACT, 1923:
+  Provides compensation to workers and their dependents for work-related
+  injuries, permanent disability or death.
+
+WORKMEN'S COMPENSATION ACT, 1923 and WEST PAKISTAN SHOPS AND ESTABLISHMENTS
+ORDINANCE, 1969 — also remain operative.
+
+------------------------------------------------------------------------
+G. ARMS ACT, 1878 (As amended)
+   [Federal legislation | Regulates possession of firearms]
+------------------------------------------------------------------------
+
+  Section 13 — Unlicensed manufacture, conversion, sale: Up to 3 years or fine.
+  Section 14 — Unlicensed import or export: Up to 3 years or fine.
+  Section 15 — Carrying arms without licence: Up to 3 years or fine.
+  Section 19 — Possession of prohibited arms: Up to 7 years.
+  [Prohibited ordnance (rocket launchers, automatic weapons): See Prohibited
+   Bore Act, Special procedures under ATA apply for terrorism links]
+
+------------------------------------------------------------------------
+H. PAKISTAN ELECTRONIC MEDIA REGULATORY AUTHORITY ORDINANCE, 2002 (PEMRA)
+   [Ordinance XIII of 2002 | As amended by PEMRA Amendment Act 2007]
+------------------------------------------------------------------------
+
+  Section 2 — Definitions.
+  Section 3 — Establishment of PEMRA: A regulatory authority for electronic
+    media broadcasting.
+  Section 4 — Functions of PEMRA:
+    - Regulate establishment and operation of broadcast media;
+    - Issue, amend, suspend, revoke licences;
+    - Promote free expression and flow of information.
+  Section 20 — Prohibited content broadcasts: Broadcasts must not:
+    (a) Contain anything contrary to Islam or laws of Pakistan;
+    (b) Contain anything likely to cause disorder or violence;
+    (c) Encourage violence, terrorism, sectarianism, extremism, hatred;
+    (d) Defame or bring into ridicule any person or state institution;
+    (e) Spread disinformation or propaganda against State institutions.
+  Section 27 — Penalty for violating licensing conditions:
+    Fine up to PKR 1,000,000 per violation; suspension or revocation of licence.
+  Section 29 — Power of PEMRA to issue directions.
+  Section 32 — Appeals to High Court.
+
+================================================================================
+                   PART IV: CORPORATE LAWS
+================================================================================
+
+------------------------------------------------------------------------
+A. COMPANIES ACT, 2017
+   [Act XIX of 2017 | Enacted 30 May 2017]
+   [Replaced Companies Ordinance 1984 (except NBFC provisions)]
+   [Administered by: Securities and Exchange Commission of Pakistan (SECP)]
+   [13 Parts | Source: secp.gov.pk | psx.com.pk | pakistancode.gov.pk]
+------------------------------------------------------------------------
+
+PART I — PRELIMINARY
+  Section 2 — Definitions:
+    "Company" — company incorporated under this Act;
+    "Private company" — restricts right to transfer shares; limits members to 50;
+    "Public company" — no restriction on transfer; can raise public funds;
+    "Listed company" — shares listed on stock exchange;
+    "Single member company" — formed by one person;
+    "Holding company / Subsidiary company";
+    "Independent director" — not executive or affiliated with management;
+    "Beneficial owner" — person who ultimately owns or controls company.
+
+PART II — INCORPORATION OF COMPANIES
+  Section 14 — Requirements for incorporation:
+    - Memorandum of Association (MOA);
+    - Articles of Association (AOA) if not adopting Table A.
+  Section 20 — Certificate of incorporation: Upon registration, SECP issues
+    certificate; company comes into existence from date of incorporation.
+  Section 31 — Unlimited company; company limited by guarantee.
+  Section 33 — SINGLE MEMBER COMPANY (SMC): Only one person may form and
+    manage an SMC; nominated person inherits in case of death.
+
+PART III — SHARE CAPITAL
+  Section 56 — Rights of shareholders.
+  Section 83 — Allotment of shares.
+  Section 86 — Return as to allotments.
+  Section 92 — Nominee shareholder concept introduced: A person may hold
+    shares on behalf of a beneficial owner with required disclosures.
+
+PART IV — DEBENTURES
+  Section 100 — Debentures, debenture stocks, bonds, etc.
+  Section 109 — Charges to be registered with SECP within 30 days.
+
+PART V — MANAGEMENT AND ADMINISTRATION
+  Section 154 — BOARD OF DIRECTORS:
+    - Private company: Minimum 2 directors (at least 1 must be resident in Pakistan).
+    - Public company: Minimum 7 directors.
+    - Listed company: Majority must be independent directors.
+  Section 172 — Chief Executive Officer (CEO):
+    - Every company must have a CEO.
+    - CEO cannot simultaneously be Chairman of the Board.
+  Section 177 — MEETINGS OF DIRECTORS (Board Meetings):
+    - At least once every quarter; quorum = majority of directors.
+  Section 130 — ANNUAL GENERAL MEETING (AGM):
+    - Within 4 months of close of financial year.
+    - Quorum for listed companies: 10 members or 10% of members (whichever less).
+  Section 133 — Extraordinary General Meeting (EGM):
+    - Called by Board or demanded by 10% shareholders.
+  Section 219 — Accounts and audit: Statutory financial statements must be
+    prepared in accordance with:
+    - IFRS for listed companies;
+    - AFRS for SMEs and non-listed.
+  Section 246 — DIVIDENDS:
+    - Out of profits only; no dividend out of capital.
+  Section 452 — CORPORATE SOCIAL RESPONSIBILITY (CSR):
+    - Companies with paid-up capital exceeding PKR 1 billion or turnover
+      exceeding PKR 3 billion must ensure CSR activities.
+
+PART VI — INSPECTION AND INVESTIGATION
+  Section 256 — SECP's power to appoint inspector to investigate affairs.
+  Section 261 — Power to investigate ownership.
+
+PART VII — ARRANGEMENT, RECONSTRUCTION AND AMALGAMATION
+  Section 279 — Schemes of arrangement; mergers; demergers.
+  Section 283 — Reconstruction and amalgamation with Court approval.
+
+PART VIII — WINDING UP
+  Section 299 — Modes of winding up:
+    (a) By the Court (Compulsory);
+    (b) Voluntary.
+  Section 301 — Grounds for compulsory winding up:
+    - Special resolution of company;
+    - Inability to pay debts;
+    - Just and equitable grounds.
+  Section 305 — Petition for winding up by SECP, creditor or contributor.
+  Section 339 — VOLUNTARY WINDING UP: Members' voluntary or creditors' voluntary.
+  Section 369 — Dissolution: Company struck off register when wound up.
+
+PART XII — OFFENCES, PENALTIES AND LEGAL PROCEEDINGS
+  Section 468 — Acceptance of documents filed after prescribed time with fee.
+  Section 474 — Enforcing compliance: SECP may give notice for default;
+    company has time to remedy as specified by registrar.
+  Section 479-A — Review and revision of penalty orders within 60 days.
+
+GLOBAL REGISTER OF BENEFICIAL OWNERSHIP:
+  Any shareholder holding 10% or more in a foreign company must disclose
+  details to SECP within prescribed time. Penalty: PKR 25,000 plus PKR 500
+  per day for continuing default.
+
+TYPES OF COMPANIES UNDER COMPANIES ACT 2017:
+  (1) Private Limited Company (Pvt. Ltd.)
+  (2) Public Limited Company (Ltd.)
+  (3) Single Member Company (SMC)
+  (4) Not-for-Profit Company (Section 42 Company)
+  (5) Free Zone Company (FZC) — for Export Processing Zones
+  (6) Unlimited Company
+  (7) Guarantee-limited Company
+  (8) Foreign Company (Branch / Liaison Office)
+  (9) Limited Liability Partnership (LLP) — per LLP Act 2017
+
+------------------------------------------------------------------------
+B. SECURITIES ACT, 2015
+   [Regulates capital markets; supersedes Securities and Exchange Ordinance 1969]
+   [SECP administers | Protects investors | Governs insider trading]
+------------------------------------------------------------------------
+
+  Section 2 — Definitions: "Securities", "Issuer", "Broker", "Insider".
+  Section 26 — Registration of public offering.
+  Section 76 — Prohibition of insider trading: Persons with inside information
+    cannot deal in securities. Penalty: Up to 3 years or fine or both.
+  Section 77 — Market manipulation: Prohibited.
+  Section 81 — Civil liability for fraud.
+  Section 90 — SECP's powers of investigation.
+  Section 126 — Penalties up to PKR 25 million or 3 years imprisonment.
+
+------------------------------------------------------------------------
+C. LIMITED LIABILITY PARTNERSHIP ACT, 2017
+   [Act XIV of 2017]
+------------------------------------------------------------------------
+
+  Section 2 — Definitions: "LLP", "partner", "LLP agreement".
+  Section 3 — Nature of LLP: Body corporate; separate legal entity.
+  Section 4 — Registration with SECP.
+  Section 21 — Liability of LLP: LLP is solely responsible for its obligations;
+    partners not personally liable for acts of LLP.
+  Section 30 — Winding up of LLP.
+
+------------------------------------------------------------------------
+D. COMPETITION ACT, 2010
+   [Administered by Competition Commission of Pakistan (CCP)]
+------------------------------------------------------------------------
+
+  Section 3 — Prohibition of anti-competitive agreements: Agreements that
+    restrict competition are void.
+  Section 4 — Abuse of dominant position: Prohibited.
+  Section 11 — Merger regulations: Mergers that substantially lessen competition
+    must be pre-approved by CCP.
+  Section 38 — Penalties: Up to 10% of annual turnover of the enterprise.
+
+================================================================================
+                   PART V: INSTITUTIONAL LAWS
+================================================================================
+
+------------------------------------------------------------------------
+A. JUDICIARY
+------------------------------------------------------------------------
+
+SUPREME COURT OF PAKISTAN:
+  Constitutional Basis: Articles 176–191 of the Constitution.
+  Composition: Chief Justice of Pakistan + Judges (minimum 16 per statute).
+  Jurisdiction:
+    - Original: Article 184(3) — enforcement of fundamental rights.
+    - Appellate: Article 185 — from High Courts.
+    - Advisory: Article 186 — Federal Government may seek opinion.
+    - Review: Supreme Court may review its own judgments.
+  Suo Motu: Court may take cognizance of its own motion on matters of public
+    importance under Article 184(3).
+  Practice and Procedure: Supreme Court (Practice and Procedure) Act, 2023
+    [Enacted to regulate constitution of benches; bench formation by committee].
+  26th Amendment (2024): Constitutional Benches created within Supreme Court
+    for specified constitutional matters.
+  27th Amendment (2025): Federal Constitutional Court introduced as separate
+    court; jurisdiction over specific constitutional questions.
+
+FEDERAL SHARIAT COURT:
+  Constitutional Basis: Articles 203A–203J.
+  Jurisdiction: Examines any law and decides if repugnant to Islam.
+  Composition: Maximum 8 Muslim Judges including Chief Justice.
+  No jurisdiction over Constitution, Muslim Personal Law, Fiscal Laws, or
+  procedural laws (for 3 years initially — now expired limitation).
+
+HIGH COURTS:
+  Constitutional Basis: Articles 192–203.
+  One High Court for each Province:
+    - Lahore High Court (Punjab);
+    - High Court of Sindh (Sindh);
+    - Peshawar High Court (KPK);
+    - Balochistan High Court (Balochistan);
+    - Islamabad High Court (ICT) — established 2010.
+  Writ jurisdiction under Article 199.
+  Appellate jurisdiction over subordinate courts.
+
+DISTRICT COURTS:
+  Statutory basis under Cr.P.C. and Civil Procedure Code, 1908.
+  Sessions Courts — criminal cases.
+  District Courts — civil matters.
+  Family Courts — under West Pakistan Family Courts Act, 1964.
+
+SUPREME JUDICIAL COUNCIL:
+  Constitutional Basis: Article 209.
+  Investigates misconduct of Supreme Court and High Court judges.
+  Reference can be made by President or on complaint.
+  May recommend removal of judge to President.
+
+APPOINTMENT OF JUDGES (26th Amendment 2024):
+  Judicial Commission of Pakistan recommends nominees.
+  Parliamentary Committee scrutinises and confirms appointments.
+  Chief Justice appointed by President on recommendation of Judicial Commission.
+
+------------------------------------------------------------------------
+B. ELECTION COMMISSION OF PAKISTAN (ECP)
+   [Constitutional Basis: Articles 213–226]
+   [Elections Act, 2017 governs elections]
+------------------------------------------------------------------------
+
+  Composition: Chief Election Commissioner + 4 Members (one per province).
+  Qualifications: CEC must be a retired judge of the Supreme Court.
+  Functions:
+    - Delimitation of constituencies;
+    - Preparation and maintenance of electoral rolls;
+    - Conduct of general elections to National and Provincial Assemblies;
+    - Conduct of by-elections;
+    - Matters relating to political parties;
+    - Examination of annual statements of accounts of political parties.
+  ELECTIONS ACT, 2017:
+    - Governs registration of voters; political parties; election process;
+      election financing; election disputes; results and post-election processes.
+    - Electronic Voting Machines (EVMs) are subject to ECP approval.
+    - Overseas voting regulated under this Act.
+
+------------------------------------------------------------------------
+C. NATIONAL ACCOUNTABILITY BUREAU (NAB)
+   [Established under NAO, 1999]
+------------------------------------------------------------------------
+
+  Chairman NAB:
+    - Appointed by President in consultation with Leader of the House and
+      Leader of the Opposition;
+    - Tenure: 4 years; non-extendable.
+    - Qualifications: Must be retired judge of Supreme Court or having
+      equivalent judicial or civil service experience.
+  Prosecutor General Accountability:
+    - Independent office; holds position on whole-time basis;
+    - Qualifications: Same as judge of Supreme Court.
+  Accountability Courts:
+    - Judges appointed by Government in consultation with Chief Justice
+      of the relevant High Court.
+    - Jurisdiction: Try cases of corruption referred by NAB.
+    - Court must complete trial within 30 days of framing of charge
+      (to be extended on specific reasons).
+
+------------------------------------------------------------------------
+D. FEDERAL BOARD OF REVENUE (FBR)
+   [Established under Federal Board of Revenue Act, 2007]
+------------------------------------------------------------------------
+
+  Responsibilities:
+    - Collection of Federal taxes (Income Tax, Sales Tax, Customs, FED).
+    - Formulation of fiscal policies.
+    - Administration of tax laws.
+  Divisions:
+    - Inland Revenue Service (IRS) — Income Tax, Sales Tax, FED;
+    - Pakistan Customs Service — Import/Export duties.
+  Active Taxpayers' List (ATL): Maintained by FBR; updated weekly;
+    non-appearance results in higher withholding tax rates.
+  FBR Act 2007: Chairman FBR appointed by Federal Government.
+
+------------------------------------------------------------------------
+E. SECURITIES AND EXCHANGE COMMISSION OF PAKISTAN (SECP)
+   [Established under SECP Act, 1997]
+------------------------------------------------------------------------
+
+  An independent regulatory authority for:
+    - Corporate sector (Companies Act 2017);
+    - Capital markets (Securities Act 2015);
+    - Insurance companies;
+    - Non-banking finance companies (NBFCs);
+    - Modarabas.
+  Chairman and Commissioners: Appointed by Federal Government.
+  Powers: Regulation, licensing, investigation, adjudication, enforcement.
+  SECP's Online Portal (e-Services): Company incorporation and filings.
+
+------------------------------------------------------------------------
+F. COMPETITION COMMISSION OF PAKISTAN (CCP)
+   [Established under Competition Act, 2010]
+------------------------------------------------------------------------
+
+  Regulates competition in all sectors of the economy.
+  Prevents anti-competitive agreements, abuse of dominance, deceptive practices.
+  Approves mergers and acquisitions above prescribed thresholds.
+
+------------------------------------------------------------------------
+G. PAKISTAN TELECOMMUNICATION AUTHORITY (PTA)
+   [Established under Pakistan Telecommunication (Re-organization) Act, 1996]
+------------------------------------------------------------------------
+
+  Regulates telecommunication services, internet service providers (ISPs),
+  mobile networks, and telecom infrastructure.
+  Issues licences; approves tariffs; enforces consumer protection.
+  Powers under PECA 2016 to block websites on court orders or on national
+  security grounds.
+
+------------------------------------------------------------------------
+H. AUDITOR GENERAL OF PAKISTAN
+   [Constitutional Basis: Articles 168–171]
+------------------------------------------------------------------------
+
+  Article 168: There shall be an Auditor General of Pakistan who shall be
+    appointed by the President.
+  Tenure: 4 years or until age of 65, whichever is earlier.
+  Functions: Audit the accounts of Federation, Provinces, and all authorities
+    set up under any federal or provincial statute.
+  Reports to Parliament and Provincial Assemblies.
+  Audit Oversight Board (AOB): Regulates external auditors of listed companies.
+
+------------------------------------------------------------------------
+I. OMBUDSMAN INSTITUTIONS
+------------------------------------------------------------------------
+
+FEDERAL OMBUDSMAN (Wafaqi Mohtasib):
+  Established: Federal Ombudsman (Appointment, Functions, Powers and Terms
+    and Conditions of Service) Order, 1983.
+  Jurisdiction: Maladministration by Federal Government agencies.
+  Powers: Investigate complaints free of charge; order remedial action.
+
+FEDERAL TAX OMBUDSMAN:
+  Established: Federal Tax Ombudsman Ordinance, 2000.
+  Jurisdiction: Maladministration by tax authorities (FBR and its functionaries).
+
+BANKING MOHTASIB (PAKISTAN):
+  Established: Banking Companies Ordinance, 1962 (as amended).
+  Jurisdiction: Complaints against banks.
+
+INSURANCE OMBUDSMAN:
+  Jurisdiction: Complaints against insurance companies.
+
+================================================================================
+                   PART VI: DOMESTIC LAWS
+================================================================================
+
+------------------------------------------------------------------------
+A. MUSLIM FAMILY LAWS ORDINANCE, 1961 (MFLO)
+   [Ordinance VIII of 1961 | Applies to all Muslims in Pakistan]
+   [As amended, including Punjab Muslim Family Laws (Amendment) Act 2015]
+   [Source: punjablaws.gov.pk | pakistancode.gov.pk | citylaws.pk]
+------------------------------------------------------------------------
+
+PREAMBLE: To give effect to certain recommendations of the Commission on
+Marriage and Family Laws.
+
+  Section 1 — Short title, extent and application:
+    Applies to all Muslim citizens of Pakistan, wherever they may be.
+    Extends to the whole of Pakistan [as amended by various provincial acts].
+
+  Section 3 — Ordinance to override other laws:
+    Provisions of this Ordinance shall have effect notwithstanding any law,
+    custom or usage. Registration of Muslim marriages shall take place only
+    in accordance with these provisions.
+    Arbitration Act and CPC shall not apply to any Arbitration Council.
+
+  Section 4 — SUCCESSION:
+    In the event of the death of any son or daughter of the propositus
+    before the opening of succession, the children of such son or daughter,
+    if living at the time succession opens, shall per stirpes receive a
+    share equivalent to the share such son or daughter would have received
+    if alive. [This rule modifies the strict classical Islamic inheritance rules.]
+
+  Section 5 — REGISTRATION OF MARRIAGES:
+    (1) Every marriage solemnised under Muslim Law shall be registered in
+        accordance with provisions of this Ordinance.
+    (2) The Nikah Registrar (Union Council area) shall register the marriage.
+    (3) Failure to register: Shall not affect validity of marriage; but
+        person responsible shall be punished with simple imprisonment up to
+        3 months or fine up to PKR 1,000 or both.
+
+  Section 6 — POLYGAMY (Additional Marriages):
+    (1) No man during the subsistence of an existing marriage shall contract
+        another marriage except with previous permission in writing of the
+        Arbitration Council.
+    (2) Application to Arbitration Council: Must state grounds of necessity;
+        Council shall examine and decide whether proposed marriage is
+        necessary and just.
+    (3) Permission shall be granted if Arbitration Council satisfied marriage
+        is necessary and just.
+    (4) Contravention: Offender shall pay immediate dower (Mehr) of existing
+        wife; and shall be punished with simple imprisonment up to 1 year or
+        fine up to PKR 5,000 or both.
+    (5) Existing wife may apply to divorce upon husband contracting second
+        marriage without permission.
+
+  Section 7 — TALAQ (DIVORCE BY HUSBAND):
+    (1) Any man who wishes to divorce his wife shall, as soon as may be after
+        pronouncement of Talaq in any form whatsoever, give written notice to
+        Chairman, Arbitration Council, and supply copy to wife.
+    (2) Failure to give notice: Punishable with simple imprisonment up to 1 year
+        or fine up to PKR 5,000 or both; and divorce shall not be effective.
+    (3) Arbitration Council shall constitute an Arbitration Council within 30
+        days and try to bring about reconciliation.
+    (4) Talaq shall not be effective until 90 days from service of notice on
+        Chairman have elapsed; if wife is pregnant, not until end of pregnancy.
+    (5) If reconciliation takes place, Talaq shall not take effect. Husband may
+        revoke the Talaq.
+
+  Section 8 — DELEGATION OF RIGHT OF DIVORCE (TALAQ-E-TAFWEEZ):
+    A wife may exercise the right of Talaq delegated to her by husband
+    by pronouncing Talaq herself. The procedure of Section 7 shall apply.
+
+  Section 9 — MAINTENANCE:
+    (1) If husband fails to maintain wife adequately or there is disagreement
+        as to the amount of maintenance, wife or husband may apply to Arbitration
+        Council for determining maintenance.
+    (2) Arbitration Council shall determine maintenance after hearing parties.
+    (3) Certificate of Arbitration Council for maintenance shall be recoverable
+        as arrears of land revenue.
+
+  Section 10 — DOWER (MEHR):
+    Where no details of dower are given at time of marriage, dower shall be
+    payable on demand. Dower shall be recoverable as arrears of land revenue.
+
+------------------------------------------------------------------------
+B. DISSOLUTION OF MUSLIM MARRIAGES ACT, 1939 (DMMA)
+   [Act VIII of 1939 | Applies to Muslim women]
+------------------------------------------------------------------------
+
+  Section 2 — GROUNDS FOR KHULA (DIVORCE BY WIFE):
+    A woman married under Muslim Law shall be entitled to obtain a decree for
+    dissolution of her marriage (Khula) on any one or more of the following
+    grounds:
+    (i) Whereabouts of husband unknown for 4 years;
+    (ii) Failure to maintain for 2 years;
+    (iii) Husband sentenced to imprisonment for 7 or more years;
+    (iv) Failure to perform marital obligations without reasonable cause for
+         3 years;
+    (v) Husband was impotent at time of marriage;
+    (vi) Husband was insane for 2 years or suffers from leprosy or virulent
+         venereal disease;
+    (vii) Wife given in marriage by father or guardian before age of 15 —
+          can repudiate before 18 (Dissolution of marriage by Minor);
+    (viii) Husband treats wife with cruelty — habitual assault or making her
+           life miserable; associates with women of ill repute; attempts to
+           force wife to lead immoral life; disposes of wife's property;
+           obstructs wife's religious practice; does not treat co-wives equally;
+    (ix) Any other ground recognized as valid dissolution under Muslim Law
+         (including Khula on wife's offer to return Mehr).
+
+  [Key Case Law: Khursheed Bibi v. Muhammad Amin PLD 1967 SC 97 — Supreme
+   Court held woman has absolute right to seek Khula if unwilling to stay
+   in marriage.]
+
+  Section 5 — Apostasy: Renunciation of Islam by husband entitles wife to
+    dissolution of marriage.
+
+------------------------------------------------------------------------
+C. CHILD MARRIAGE RESTRAINT ACT, 1929 (CMRA)
+   [Act XIX of 1929 | As amended]
+------------------------------------------------------------------------
+
+  Section 2 — Definitions:
+    "Child" — male under 18; female under 16 years [nationally applicable].
+    "Child marriage" — marriage to which either contracting party is a child.
+
+  Section 4 — Punishment for male adult marrying a child: Up to 1 month simple
+    imprisonment or fine up to PKR 1,000 or both.
+  Section 5 — Punishment for person who performs, conducts or directs any
+    child marriage: Up to 1 month or fine or both.
+  Section 6 — Punishment for parent or guardian allowing child marriage:
+    Up to 1 month or fine or both.
+  Section 9 — Child marriage not void but voidable: A child marriage is not
+    void, but is voidable at the option of the contracting party who was a
+    child at time of marriage.
+  Section 12 — Injunction: Court may issue injunction prohibiting a child
+    marriage from being solemnised.
+
+  [Note: The Sindh Child Marriage Restraint Act, 2013 raised minimum age for
+   both parties to 18 in Sindh. National debate continues on raising age to
+   18 nationwide under proposed legislation.]
+
+------------------------------------------------------------------------
+D. WEST PAKISTAN FAMILY COURTS ACT, 1964
+   [Act XXXV of 1964 | Establishes Family Courts]
+------------------------------------------------------------------------
+
+  Section 5 — Jurisdiction of Family Courts: Family Courts have jurisdiction
+    in matters relating to:
+    (a) Dissolution of marriage;
+    (b) Dower (Mehr);
+    (c) Maintenance;
+    (d) Restitution of conjugal rights;
+    (e) Custody of children;
+    (f) Guardianship;
+    (g) Jactitation of marriage.
+
+  Section 10 — Pre-trial proceedings: Family Court shall try to effect
+    reconciliation between parties; if reconciliation possible, Court shall
+    adjourn proceedings.
+  Section 12 — Right of appeal: Appeal lies to District Court or High Court.
+  Section 17 — Execution of decrees: Decrees of Family Court are executed
+    as decree of civil court.
+  Section 21-A — Protection order: Court may pass protection order for
+    safety of wife and children during proceedings.
+
+------------------------------------------------------------------------
+E. GUARDIANS AND WARDS ACT, 1890
+   [Act VIII of 1890 | Governs guardianship of minors]
+------------------------------------------------------------------------
+
+  Section 7 — Power of Court to make order as to guardianship:
+    Where it appears to the Court that it is for welfare of a minor that
+    an order should be made:
+    (a) Appointing a guardian of his person or property or both; or
+    (b) Declaring a person to be such guardian.
+
+  Section 17 — Matters to be considered by the Court:
+    In appointing or declaring the guardian of a minor, the Court shall
+    be guided by what, consistently with the law to which the minor is
+    subject, appears in all the circumstances to be for the welfare of
+    the minor. Court shall have regard to:
+    (a) Age, sex and religion of the minor;
+    (b) Character and capacity of the proposed guardian;
+    (c) Wishes of deceased parent;
+    (d) Existing or previous relations of proposed guardian with minor.
+
+  Section 19 — Guardian not to be appointed in certain cases: Guardian
+    cannot be appointed in respect of property where minor has no interest.
+
+  [Islamic Law Principles on Custody (Hizanat)]:
+    - Mother has right to custody of sons up to age 7.
+    - Mother has right to custody of daughters until puberty.
+    - Father is natural guardian for property purposes.
+    - Court always considers welfare of child as paramount.
+
+------------------------------------------------------------------------
+F. DOWRY AND BRIDAL GIFTS (RESTRICTION) ACT, 1976
+   [Act XLIII of 1976]
+------------------------------------------------------------------------
+
+  Section 3 — Restriction on dowry: At the time of marriage, value of dowry
+    or presents made to the bride shall not exceed PKR 5,000.
+    [The monetary limit is outdated; amendment needed.]
+  Section 4 — Return of dowry: In case of dissolution of marriage, dowry
+    articles shall be returned to the bride.
+  Section 5 — Offence: Contravention punishable with up to 6 months or fine
+    or both. [Rarely enforced in practice]
+
+------------------------------------------------------------------------
+G. DOMESTIC VIOLENCE LAWS (Provincial and Federal)
+------------------------------------------------------------------------
+
+DOMESTIC VIOLENCE (PREVENTION AND PROTECTION) ACT, 2013 (ICT):
+  [Applicable to Islamabad Capital Territory]
+  Section 2 — "Domestic violence" includes:
+    - Physical abuse; sexual abuse; emotional, psychological or verbal abuse;
+    - Economic abuse; stalking; harassment; cyberstalking; forced marriage.
+  Section 4 — Application for protection order: Aggrieved person or on
+    their behalf may apply to Court.
+  Section 5 — Protection orders: Court may prohibit respondent from:
+    - Committing domestic violence;
+    - Entering residence of aggrieved person;
+    - Entering workplace of aggrieved person.
+  Section 10 — Breach of protection order: Arrest without warrant; up to 1 year
+    or fine or both.
+
+PUNJAB PROTECTION OF WOMEN AGAINST VIOLENCE ACT, 2016 (PPWVA):
+  [Applicable to Punjab Province]
+  Provides civil remedies rather than criminalization.
+  Establishes District Women Protection Committee; Shelter Homes; Crisis Centres.
+  Woman Protection Officer appointed to assist victims.
+  Protection orders, residence orders, monetary orders available.
+  GPS tracking of persistent offenders allowed.
+  [Sindh and Balochistan have their own domestic violence legislation;
+   KPK Domestic Violence Against Women (Prevention and Protection) Act, 2021]
+
+------------------------------------------------------------------------
+H. PROTECTION AGAINST HARASSMENT OF WOMEN AT THE WORKPLACE ACT, 2010
+   [Act IV of 2010 | Federal | As amended 2022]
+------------------------------------------------------------------------
+
+  Section 2 — Definitions:
+    "Harassment" — any unwelcome sexual advance, request for sexual favour or
+    other verbal or written communication, gesture or physical conduct of a
+    sexual nature.
+  Section 3 — DUTY OF EMPLOYER:
+    Every employer shall adopt an internal policy against harassment; constitute
+    an Inquiry Committee; prominently display the Code of Conduct.
+  Section 4 — INQUIRY COMMITTEE: Minimum 3 members including one woman.
+  Section 8 — PENALTIES:
+    - Minor penalty: Censure, withholding of promotion;
+    - Major penalty: Demotion, dismissal, compulsory retirement.
+  Section 10 — APPEAL: Right of appeal to Ombudsman (Federal or Provincial).
+  Section 11 — OMBUDSMAN: An Ombudsman for Protection Against Harassment of
+    Women at the Workplace appointed for each Province and at Federal level.
+  [Amendment 2022: Scope extended to domestic workers and informal sector]
+
+------------------------------------------------------------------------
+I. INHERITANCE LAW (Islamic Law / Shariah for Muslims)
+------------------------------------------------------------------------
+
+  SOURCE: Holy Quran (Surah An-Nisa: 4:11-12, 4:176) and Hadith;
+    Muslim Personal Law (Shariat) Application Act, 1962.
+
+  GENERAL RULES OF INHERITANCE UNDER ISLAMIC LAW:
+
+  Male heirs generally receive double the share of female heirs:
+    - Son: Double share of daughter.
+    - Father: Entitled when no son.
+    - Husband: 1/4 of wife's estate if they have children; 1/2 if no children.
+    - Wife: 1/8 of husband's estate if there are children; 1/4 if no children.
+    - Daughter: 1/2 if only child; 2/3 if more than one daughter.
+    - Mother: 1/6 of estate if there are children or brothers/sisters.
+    - Sister: In absence of other heirs, various shares apply.
+
+  CONDITION FOR INHERITANCE:
+    - Heir must be alive at time of succession.
+    - Heir must not have murdered the deceased.
+    - Non-Muslims cannot inherit from Muslims (general rule).
+
+  WASIYAT (WILL / BEQUEST):
+    - A Muslim can bequeath up to 1/3 of his estate by will.
+    - Bequest beyond 1/3 requires consent of heirs.
+    - A bequest to an heir is not valid without consent of other heirs.
+
+  [Key Constitutional Provision: Section 498-A PPC (2011) — Criminal
+   offense to deprive women from inheriting property by use of force or fraud.]
+
+  [Key Case: Hafeez-ur-Rehman v. Saif-ur-Rehman PLD 2017 SC 249 — Supreme
+   Court reinforced that women cannot be deprived of inheritance rights.]
+
+  WEST PAKISTAN MUSLIM PERSONAL LAW (SHARIAT) APPLICATION ACT, 1962:
+    Applied Islamic law on succession, inheritance, and related matters
+    as the rule of decision in courts of Pakistan for Muslims.
+
+------------------------------------------------------------------------
+J. REGISTRATION ACT, 1908 (Applicable to Property)
+   [Act XVI of 1908 | As amended]
+------------------------------------------------------------------------
+
+  Section 17 — Documents of which registration is compulsory:
+    (a) Instruments of gift of immovable property;
+    (b) Non-testamentary instruments which purport to create, declare, assign,
+        limit or extinguish rights in immovable property (value > PKR 100).
+    (c) Wills and authorities to adopt a son.
+  Section 49 — Effect of non-registration of documents required to be registered:
+    No document required to be registered shall:
+    (a) Affect any immovable property; or
+    (b) Be received as evidence of any transaction affecting such property.
+
+------------------------------------------------------------------------
+K. TRANSFER OF PROPERTY ACT, 1882
+   [Governs transfer of property between persons]
+------------------------------------------------------------------------
+
+  Section 5 — Transfer of property defined: An act by which a living person
+    conveys property to one or more other living persons.
+  Section 6 — What may be transferred: Property of any kind may be transferred.
+  Section 8 — Operation of transfer: Transfer vests in transferee all interest
+    which transferor is capable of passing.
+  Section 54 — SALE: Transfer of ownership in exchange for price paid or
+    promised. For immovable property of value PKR 100 or more — must be by
+    registered instrument.
+  Section 58 — MORTGAGE: Transfer of an interest in specific immovable property
+    as security for payment of money advanced or to be advanced.
+  Section 105 — LEASE: Transfer of a right to enjoy property for a certain time.
+  Section 122 — GIFT: Transfer of certain existing movable or immovable property
+    made voluntarily and without consideration by one person (donor) to another
+    (donee), accepted by donee.
+  Section 130 — Transfer of actionable claims.
+
+------------------------------------------------------------------------
+L. HINDU MARRIAGE ACT, 2017
+   [Act XII of 2017 | Applies to Hindus in Pakistan]
+------------------------------------------------------------------------
+
+  Pakistan's first codified law for Hindu marriages.
+  Section 4 — Conditions for Hindu marriage:
+    - Neither party has living spouse;
+    - Parties are not sapindas (closely related);
+    - Minimum age: 18 for male, 16 for female.
+  Section 7 — Registration of Hindu marriages mandatory.
+  Section 10 — Grounds for divorce under Hindu law.
+  Section 11 — Rights of Hindu women in marriage.
+
+================================================================================
+                        SUMMARY TABLE OF KEY LAWS
+================================================================================
+
+No. | LAW                              | YEAR | AUTHORITY
+----|----------------------------------|------|---------------------------
+1   | Constitution of Pakistan         | 1973 | Parliament
+2   | Pakistan Penal Code              | 1860 | Parliament
+3   | Code of Criminal Procedure       | 1898 | Parliament
+4   | Qanun-e-Shahadat Order           | 1984 | President/Parliament
+5   | Anti-Terrorism Act               | 1997 | Parliament
+6   | Prevention of Electronic Crimes  | 2016 | Parliament
+7   | Income Tax Ordinance             | 2001 | FBR / Parliament
+8   | Sales Tax Act                    | 1990 | FBR / Parliament
+9   | Customs Act                      | 1969 | FBR / Parliament
+10  | National Accountability Ord.     | 1999 | President/Parliament
+11  | Companies Act                    | 2017 | SECP / Parliament
+12  | Securities Act                   | 2015 | SECP / Parliament
+13  | Competition Act                  | 2010 | CCP / Parliament
+14  | State Bank of Pakistan Act       | 1956 | Parliament
+15  | Muslim Family Laws Ordinance     | 1961 | President/Parliament
+16  | Dissolution of Muslim Marriages  | 1939 | Parliament
+17  | Child Marriage Restraint Act     | 1929 | Parliament
+18  | West Pakistan Family Courts Act  | 1964 | Parliament
+19  | Guardians and Wards Act          | 1890 | Parliament
+20  | Domestic Violence (ICT) Act      | 2013 | Parliament
+21  | Punjab Protection of Women Act   | 2016 | Punjab Assembly
+22  | Harassment at Workplace Act      | 2010 | Parliament
+23  | Transfer of Property Act         | 1882 | Parliament
+24  | Registration Act                 | 1908 | Parliament
+25  | PEMRA Ordinance                  | 2002 | President/Parliament
+26  | Factories Act                    | 1934 | Parliament
+27  | Arms Act                         | 1878 | Parliament
+28  | Hindu Marriage Act               | 2017 | Parliament
+29  | Limited Liability Partnership    | 2017 | Parliament
+30  | Elections Act                    | 2017 | Parliament
+
+================================================================================
+                   OFFICIAL LEGAL REFERENCE SOURCES
+================================================================================
+
+1. The Pakistan Code (Official Laws of Pakistan):
+   https://pakistancode.gov.pk
+
+2. National Assembly of Pakistan (Constitution, Bills, Acts):
+   https://www.na.gov.pk
+
+3. Senate of Pakistan:
+   https://www.senate.gov.pk
+
+4. Securities and Exchange Commission of Pakistan:
+   https://www.secp.gov.pk
+
+5. Federal Board of Revenue:
+   https://www.fbr.gov.pk
+
+6. Supreme Court of Pakistan (Judgments):
+   https://www.supremecourt.gov.pk
+
+7. National Accountability Bureau:
+   https://www.nab.gov.pk
+
+8. State Bank of Pakistan (Laws):
+   https://www.sbp.org.pk
+
+9. PEMRA:
+   https://www.pemra.gov.pk
+
+10. CommonLII (Pakistan Legislation and Case Law):
+    http://www.commonlii.org/pk
+
+11. Punjab Laws Portal:
+    http://punjablaws.gov.pk
+
+12. Law and Justice Commission of Pakistan:
+    http://www.ljcp.gov.pk
+
+================================================================================
+END OF DOCUMENT
+================================================================================
+
+IMPORTANT LEGAL NOTICE: This reference document is compiled for educational
+and informational purposes only. It does not constitute legal advice. Laws in
+Pakistan are subject to frequent amendment by Parliament and provincial
+assemblies. For official and up-to-date legal text, practitioners and citizens
+should consult the official Gazette of Pakistan and the Pakistan Code at
+https://pakistancode.gov.pk. For legal advice on specific matters, consult a
+qualified advocate enrolled with the relevant Bar Council.
+
+Compiled with reference to official legal sources | April 2026
+================================================================================

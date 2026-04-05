@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pakistan Legal RAG Chatbot</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1730;
+      color: #e5e7eb;
+    }
+
+    .app {
+      max-width: 950px;
+      margin: 0 auto;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      padding: 20px 24px;
+      font-size: 22px;
+      font-weight: bold;
+      border-bottom: 1px solid #23314f;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header button {
+      background: #ef4444;
+      border: none;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      background: #0a1530;
+    }
+
+    .msg {
+      max-width: 78%;
+      padding: 14px 16px;
+      border-radius: 14px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    .bot {
+      align-self: flex-start;
+      background: #1a2742;
+      border: 1px solid #31415f;
+    }
+
+    .user {
+      align-self: flex-end;
+      background: #2563eb;
+      color: white;
+    }
+
+    .sources {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #cbd5e1;
+      background: #0e1a33;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .typing {
+      font-style: italic;
+      opacity: 0.8;
+    }
+
+    .inputbar {
+      display: flex;
+      gap: 12px;
+      padding: 16px;
+      border-top: 1px solid #23314f;
+      background: #0b1730;
+    }
+
+    textarea {
+      flex: 1;
+      resize: none;
+      min-height: 56px;
+      max-height: 160px;
+      border-radius: 12px;
+      border: 1px solid #31415f;
+      background: #0f1d3a;
+      color: white;
+      padding: 14px;
+      font-size: 15px;
+      outline: none;
+    }
+
+    button.send {
+      border: none;
+      border-radius: 12px;
+      padding: 0 20px;
+      min-width: 90px;
+      background: #10b981;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    button.send:hover {
+      opacity: 0.95;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <span>Pakistan Legal RAG Chatbot</span>
+      <button onclick="clearChat()">Clear Chat</button>
+    </div>
+
+    <div class="messages" id="messages">
+      <div class="msg bot">
+        Assalamu Alaikum. Ask me about Pakistan law, constitutional articles, or legal sections.
+      </div>
+    </div>
+
+    <div class="inputbar">
+      <textarea id="query" placeholder="Type your legal question..."></textarea>
+      <button class="send" id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <script>
+    const messages = document.getElementById("messages");
+    const queryBox = document.getElementById("query");
+    const sendBtn = document.getElementById("sendBtn");
+    const sessionId = "web-session-1";
+
+    function addMessage(text, type) {
+      const div = document.createElement("div");
+      div.className = `msg ${type}`;
+      div.textContent = text;
+      messages.appendChild(div);
+      messages.scrollTop = messages.scrollHeight;
+      return div;
+    }
+
+    function typeText(element, text, speed = 10) {
+      element.textContent = "";
+      let i = 0;
+      const interval = setInterval(() => {
+        element.textContent += text[i];
+        i++;
+        messages.scrollTop = messages.scrollHeight;
+        if (i >= text.length) clearInterval(interval);
+      }, speed);
+    }
+
+    async function sendMessage() {
+      const query = queryBox.value.trim();
+      if (!query) return;
+
+      addMessage(query, "user");
+      queryBox.value = "";
+
+      const botDiv = addMessage("Thinking...", "bot");
+      botDiv.classList.add("typing");
+
+      try {
+        const res = await fetch("/chat", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            query: query,
+            session_id: sessionId
+          })
+        });
+
+        const raw = await res.text();
+
+        if (!res.ok) {
+          botDiv.classList.remove("typing");
+          botDiv.textContent = `Backend error (${res.status}): ${raw}`;
+          return;
+        }
+
+        const data = JSON.parse(raw);
+
+        let answer = data.answer || "No answer returned.";
+
+        if (data.relevant_context && data.relevant_context.length) {
+          const sourceLines = data.relevant_context.map(item => {
+            return `- ${item.source}: ${item.text}`;
+          }).join("\n");
+
+          answer += `\n\nSources:\n${sourceLines}`;
+        }
+
+        botDiv.classList.remove("typing");
+        typeText(botDiv, answer, 8);
+      } catch (err) {
+        botDiv.classList.remove("typing");
+        botDiv.textContent = `Connection error: ${err.message}`;
+      }
+    }
+
+    async function clearChat() {
+      await fetch("/chat/clear", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          query: "clear",
+          session_id: sessionId
+        })
+      });
+
+      messages.innerHTML = `
+        <div class="msg bot">
+          Assalamu Alaikum. Ask me about Pakistan law, constitutional articles, or legal sections.
+        </div>
+      `;
+    }
+
+    sendBtn.addEventListener("click", sendMessage);
+
+    queryBox.addEventListener("keydown", function(event) {
+      if (event.key === "Enter" && !event.shiftKey) {
+        event.preventDefault();
+        sendMessage();
+      }
+    });
+  </script>
+</body>
+</html>

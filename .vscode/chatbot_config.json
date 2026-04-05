@@ -1,0 +1,91 @@
+{
+  "app": {
+    "name": "Pakistan Legal RAG Chatbot",
+    "version": "1.0.0",
+    "environment": "development",
+    "debug": true
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8000,
+    "reload": true,
+    "cors": {
+      "allow_origins": ["*"],
+      "allow_methods": ["*"],
+      "allow_headers": ["*"]
+    }
+  },
+  "llm": {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet",
+    "temperature": 0.1,
+    "max_tokens": 1200,
+    "top_p": 0.9,
+    "system_prompt": "You are a legal assistant for Pakistan law. Answer only from retrieved context when available. If the context is insufficient, say clearly that the answer is uncertain or incomplete. Do not invent statutes, clauses, or case law. Always give a structured answer with: Summary, Relevant Law, Explanation, and Caution."
+  },
+  "retrieval": {
+    "top_k": 5,
+    "search_type": "similarity",
+    "score_threshold": 0.72,
+    "use_reranker": true,
+    "reranker_top_n": 3,
+    "hybrid_search": true,
+    "metadata_filters_enabled": true,
+    "query_expansion": true,
+    "multi_query": true
+  },
+  "chunking": {
+    "chunk_size": 800,
+    "chunk_overlap": 120,
+    "separator_priority": ["\n\n", "\n", ".", " "],
+    "preserve_headings": true
+  },
+  "embedding": {
+    "provider": "sentence-transformers",
+    "model": "all-MiniLM-L6-v2",
+    "normalize_embeddings": true
+  },
+  "vector_store": {
+    "provider": "faiss",
+    "index_path": "data/vector_index",
+    "collection_name": "pakistan_legal_docs",
+    "rebuild_on_start": false
+  },
+  "memory": {
+    "enabled": true,
+    "type": "conversation_buffer",
+    "max_turns": 6,
+    "summarize_after_turns": 8
+  },
+  "legal_guardrails": {
+    "strict_citation_mode": true,
+    "require_source_snippets": true,
+    "allow_general_knowledge_only_when_no_context": false,
+    "disclaimer": "This chatbot is for informational purposes only and is not a substitute for advice from a qualified lawyer.",
+    "refuse_if_no_legal_context": false
+  },
+  "response_format": {
+    "style": "structured",
+    "sections": [
+      "Summary",
+      "Relevant Law",
+      "Explanation",
+      "Caution"
+    ],
+    "include_confidence": true,
+    "include_sources": true
+  },
+  "logging": {
+    "level": "INFO",
+    "save_queries": true,
+    "save_retrieved_chunks": true,
+    "save_errors": true,
+    "log_file": "logs/chatbot.log"
+  },
+  "evaluation": {
+    "track_latency": true,
+    "track_retrieval_hits": true,
+    "track_fallback_rate": true,
+    "track_hallucination_flags": true
+  }
+}

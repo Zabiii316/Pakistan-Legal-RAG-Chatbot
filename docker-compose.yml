@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  weaviate:
+    image: semitechnologies/weaviate:latest
+    ports:
+      - "8080:8080"
+    environment:
+      WEAVIATE_DB_HOST: postgres
+      WEAVIATE_DB_PORT: 5432
+      WEAVIATE_DB_USER: weaviate
+      WEAVIATE_DB_PASS: weaviate_pass
+      WEAVIATE_DB_NAME: weaviate_db
+      WEAVIATE_PERSISTENCE_DATA_PATH: /var/lib/weaviate
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+
+  postgres:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: weaviate
+      POSTGRES_PASSWORD: weaviate_pass
+      POSTGRES_DB: weaviate_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  fastapi:
+    image: tiangolo/uvicorn-gunicorn-fastapi:latest
+    ports:
+      - "8000:80"
+    environment:
+      DATABASE_URL: postgres://weaviate:weaviate_pass@postgres/weaviate_db
+
+volumes:
+  weaviate_data:
+  postgres_data:
