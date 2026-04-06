@@ -63,7 +63,7 @@ class RAGEngine:
         return enriched
 
     def generate(self, input_text: str, history=None) -> dict:
-        context_items = self.retrieve(input_text, top_k=2)
+        context_items = self.retrieve(input_text, top_k=3)
         answer = self.llm.chat(input_text, context_items, history=history or [])
 
         return {

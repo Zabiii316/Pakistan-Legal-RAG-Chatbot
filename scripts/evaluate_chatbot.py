@@ -10,8 +10,8 @@ BASE_URL = "http://127.0.0.1:8000"
 CHAT_ENDPOINT = f"{BASE_URL}/chat"
 CLEAR_ENDPOINT = f"{BASE_URL}/chat/clear"
 
-TEST_SET_PATH = Path("data/eval/legal_qa_test_set.json")
-OUTPUT_CSV_PATH = Path("data/eval/auto_evaluation_results.csv")
+TEST_SET_PATH = Path("data/raw/eval/legal_qa_test_set.json")
+OUTPUT_CSV_PATH = Path("data/raw/eval/auto_evaluation_results.csv")
 
 SESSION_ID = "eval-session-1"
 

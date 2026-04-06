@@ -5,38 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pakistan Legal RAG Chatbot</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #0b1730;
-      color: #e5e7eb;
+      background: #000000;
+      color: #f5f5f5;
     }
 
     .app {
-      max-width: 950px;
+      max-width: 980px;
       margin: 0 auto;
       height: 100vh;
       display: flex;
       flex-direction: column;
+      background: #000000;
     }
 
     .header {
-      padding: 20px 24px;
+      padding: 18px 20px;
       font-size: 22px;
-      font-weight: bold;
-      border-bottom: 1px solid #23314f;
+      font-weight: 700;
+      border-bottom: 1px solid #2a2a2a;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 12px;
+      background: #000000;
     }
 
-    .header button {
-      background: #ef4444;
-      border: none;
-      color: white;
-      padding: 8px 14px;
+    .header-title {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .header-subtitle {
+      font-size: 13px;
+      font-weight: 400;
+      color: #bdbdbd;
+    }
+
+    .clear-btn {
+      background: #ffffff;
+      border: 1px solid #ffffff;
+      color: #000000;
+      padding: 10px 14px;
       border-radius: 10px;
       cursor: pointer;
+      font-size: 14px;
+      white-space: nowrap;
+      font-weight: 600;
+    }
+
+    .clear-btn:hover {
+      background: #e8e8e8;
     }
 
     .messages {
@@ -45,98 +71,236 @@
       padding: 20px;
       display: flex;
       flex-direction: column;
-      gap: 14px;
-      background: #0a1530;
+      gap: 16px;
+      background: #050505;
+      scroll-behavior: smooth;
     }
 
-    .msg {
+    .message-row {
+      display: flex;
+      width: 100%;
+    }
+
+    .message-row.user {
+      justify-content: flex-end;
+    }
+
+    .message-row.bot {
+      justify-content: flex-start;
+    }
+
+    .bubble {
       max-width: 78%;
       padding: 14px 16px;
-      border-radius: 14px;
-      line-height: 1.5;
+      border-radius: 16px;
+      line-height: 1.55;
       white-space: pre-wrap;
+      word-break: break-word;
+      box-shadow: 0 6px 18px rgba(255, 255, 255, 0.04);
     }
 
-    .bot {
-      align-self: flex-start;
-      background: #1a2742;
-      border: 1px solid #31415f;
+    .bubble.user {
+      background: #ffffff;
+      color: #000000;
+      border: 1px solid #ffffff;
+      border-bottom-right-radius: 6px;
     }
 
-    .user {
-      align-self: flex-end;
-      background: #2563eb;
-      color: white;
+    .bubble.bot {
+      background: #111111;
+      border: 1px solid #2f2f2f;
+      color: #f5f5f5;
+      border-bottom-left-radius: 6px;
+    }
+
+    .typing-bubble {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 22px;
+    }
+
+    .typing-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #ffffff;
+      opacity: 0.5;
+      animation: blink 1.2s infinite;
+    }
+
+    .typing-dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .typing-dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes blink {
+      0%, 80%, 100% {
+        opacity: 0.3;
+        transform: translateY(0);
+      }
+      40% {
+        opacity: 1;
+        transform: translateY(-2px);
+      }
     }
 
     .sources {
-      margin-top: 10px;
-      font-size: 13px;
-      color: #cbd5e1;
-      background: #0e1a33;
-      padding: 10px;
+      margin-top: 12px;
+      padding: 10px 12px;
+      background: #0b0b0b;
+      border: 1px solid #2f2f2f;
       border-radius: 10px;
+      font-size: 13px;
+      color: #d9d9d9;
     }
 
-    .typing {
-      font-style: italic;
-      opacity: 0.8;
+    .sources summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .sources pre {
+      margin: 10px 0 0;
+      white-space: pre-wrap;
+      font-family: inherit;
     }
 
     .inputbar {
       display: flex;
       gap: 12px;
       padding: 16px;
-      border-top: 1px solid #23314f;
-      background: #0b1730;
+      border-top: 1px solid #2a2a2a;
+      background: #000000;
+    }
+
+    .input-wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
 
     textarea {
-      flex: 1;
+      width: 100%;
       resize: none;
       min-height: 56px;
-      max-height: 160px;
-      border-radius: 12px;
-      border: 1px solid #31415f;
-      background: #0f1d3a;
-      color: white;
+      max-height: 180px;
+      border-radius: 14px;
+      border: 1px solid #2f2f2f;
+      background: #0d0d0d;
+      color: #ffffff;
       padding: 14px;
       font-size: 15px;
       outline: none;
     }
 
-    button.send {
-      border: none;
-      border-radius: 12px;
-      padding: 0 20px;
-      min-width: 90px;
-      background: #10b981;
-      color: white;
-      font-size: 15px;
-      cursor: pointer;
+    textarea::placeholder {
+      color: #8f8f8f;
     }
 
-    button.send:hover {
-      opacity: 0.95;
+    .input-hint {
+      font-size: 12px;
+      color: #9c9c9c;
+      padding-left: 4px;
+    }
+
+    .send-btn {
+      border: 1px solid #ffffff;
+      border-radius: 14px;
+      padding: 0 20px;
+      min-width: 96px;
+      background: #ffffff;
+      color: #000000;
+      font-size: 15px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .send-btn:hover {
+      background: #e8e8e8;
+    }
+
+    .send-btn:disabled,
+    .clear-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    @media (max-width: 768px) {
+      .app {
+        max-width: 100%;
+      }
+
+      .header {
+        padding: 14px 14px;
+        font-size: 18px;
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .header-title {
+        width: 100%;
+      }
+
+      .clear-btn {
+        width: 100%;
+      }
+
+      .messages {
+        padding: 14px;
+      }
+
+      .bubble {
+        max-width: 92%;
+        font-size: 14px;
+      }
+
+      .inputbar {
+        padding: 12px;
+        flex-direction: column;
+      }
+
+      .send-btn {
+        min-height: 48px;
+        width: 100%;
+      }
+
+      textarea {
+        min-height: 52px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="app">
+    <div style="color:white; background:black; padding:10px;">BLACK THEME TEST</div>
     <div class="header">
-      <span>Pakistan Legal RAG Chatbot</span>
-      <button onclick="clearChat()">Clear Chat</button>
+      <div class="header-title">
+        <span>Pakistan Legal RAG Chatbot</span>
+        <span class="header-subtitle">Ask about Pakistan law, constitutional articles, and legal sections</span>
+      </div>
+      <button class="clear-btn" id="clearBtn">Clear Chat</button>
     </div>
 
     <div class="messages" id="messages">
-      <div class="msg bot">
-        Assalamu Alaikum. Ask me about Pakistan law, constitutional articles, or legal sections.
+      <div class="message-row bot">
+        <div class="bubble bot">
+          Assalamu Alaikum. Ask me about Pakistan law, constitutional articles, or legal sections.
+        </div>
       </div>
     </div>
 
     <div class="inputbar">
-      <textarea id="query" placeholder="Type your legal question..."></textarea>
-      <button class="send" id="sendBtn">Send</button>
+      <div class="input-wrap">
+        <textarea id="query" placeholder="Type your legal question..."></textarea>
+        <div class="input-hint">Press Enter to send • Shift + Enter for a new line</div>
+      </div>
+      <button class="send-btn" id="sendBtn">Send</button>
     </div>
   </div>
 
@@ -144,37 +308,82 @@
     const messages = document.getElementById("messages");
     const queryBox = document.getElementById("query");
     const sendBtn = document.getElementById("sendBtn");
+    const clearBtn = document.getElementById("clearBtn");
     const sessionId = "web-session-1";
 
-    function addMessage(text, type) {
-      const div = document.createElement("div");
-      div.className = `msg ${type}`;
-      div.textContent = text;
-      messages.appendChild(div);
+    function scrollToBottom() {
       messages.scrollTop = messages.scrollHeight;
-      return div;
     }
 
-    function typeText(element, text, speed = 10) {
+    function addMessageBubble(type, text = "") {
+      const row = document.createElement("div");
+      row.className = `message-row ${type}`;
+
+      const bubble = document.createElement("div");
+      bubble.className = `bubble ${type}`;
+      bubble.textContent = text;
+
+      row.appendChild(bubble);
+      messages.appendChild(row);
+      scrollToBottom();
+
+      return bubble;
+    }
+
+    function addTypingBubble() {
+      const row = document.createElement("div");
+      row.className = "message-row bot";
+
+      const bubble = document.createElement("div");
+      bubble.className = "bubble bot";
+
+      const typing = document.createElement("div");
+      typing.className = "typing-bubble";
+
+      for (let i = 0; i < 3; i++) {
+        const dot = document.createElement("span");
+        dot.className = "typing-dot";
+        typing.appendChild(dot);
+      }
+
+      bubble.appendChild(typing);
+      row.appendChild(bubble);
+      messages.appendChild(row);
+      scrollToBottom();
+
+      return bubble;
+    }
+
+    function typeText(element, text, speed = 8) {
       element.textContent = "";
       let i = 0;
+
       const interval = setInterval(() => {
         element.textContent += text[i];
         i++;
-        messages.scrollTop = messages.scrollHeight;
-        if (i >= text.length) clearInterval(interval);
+        scrollToBottom();
+
+        if (i >= text.length) {
+          clearInterval(interval);
+        }
       }, speed);
+    }
+
+    function setBusyState(isBusy) {
+      sendBtn.disabled = isBusy;
+      clearBtn.disabled = isBusy;
+      queryBox.disabled = isBusy;
     }
 
     async function sendMessage() {
       const query = queryBox.value.trim();
       if (!query) return;
 
-      addMessage(query, "user");
+      addMessageBubble("user", query);
       queryBox.value = "";
+      setBusyState(true);
 
-      const botDiv = addMessage("Thinking...", "bot");
-      botDiv.classList.add("typing");
+      const botBubble = addTypingBubble();
 
       try {
         const res = await fetch("/chat", {
@@ -191,51 +400,76 @@
         const raw = await res.text();
 
         if (!res.ok) {
-          botDiv.classList.remove("typing");
-          botDiv.textContent = `Backend error (${res.status}): ${raw}`;
+          botBubble.textContent = `Backend error (${res.status}): ${raw}`;
+          setBusyState(false);
           return;
         }
 
         const data = JSON.parse(raw);
+        const answer = data.answer || "No answer returned.";
 
-        let answer = data.answer || "No answer returned.";
+        typeText(botBubble, answer, 8);
 
         if (data.relevant_context && data.relevant_context.length) {
-          const sourceLines = data.relevant_context.map(item => {
+          const details = document.createElement("details");
+          details.className = "sources";
+
+          const summary = document.createElement("summary");
+          summary.textContent = "Show Sources";
+          details.appendChild(summary);
+
+          const sourceText = document.createElement("pre");
+          sourceText.textContent = data.relevant_context.map(item => {
             return `- ${item.source}: ${item.text}`;
           }).join("\n");
 
-          answer += `\n\nSources:\n${sourceLines}`;
-        }
+          details.appendChild(sourceText);
 
-        botDiv.classList.remove("typing");
-        typeText(botDiv, answer, 8);
+          setTimeout(() => {
+            botBubble.appendChild(document.createElement("br"));
+            botBubble.appendChild(details);
+            scrollToBottom();
+          }, Math.min(answer.length * 8 + 100, 2500));
+        }
       } catch (err) {
-        botDiv.classList.remove("typing");
-        botDiv.textContent = `Connection error: ${err.message}`;
+        botBubble.textContent = `Connection error: ${err.message}`;
+      } finally {
+        setBusyState(false);
+        queryBox.focus();
       }
     }
 
     async function clearChat() {
-      await fetch("/chat/clear", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          query: "clear",
-          session_id: sessionId
-        })
-      });
+      try {
+        setBusyState(true);
 
-      messages.innerHTML = `
-        <div class="msg bot">
-          Assalamu Alaikum. Ask me about Pakistan law, constitutional articles, or legal sections.
-        </div>
-      `;
+        await fetch("/chat/clear", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            query: "clear",
+            session_id: sessionId
+          })
+        });
+
+        messages.innerHTML = `
+          <div class="message-row bot">
+            <div class="bubble bot">
+              Assalamu Alaikum. Ask me about Pakistan law, constitutional articles, or legal sections.
+            </div>
+          </div>
+        `;
+      } catch (err) {
+        addMessageBubble("bot", `Could not clear chat: ${err.message}`);
+      } finally {
+        setBusyState(false);
+      }
     }
 
     sendBtn.addEventListener("click", sendMessage);
+    clearBtn.addEventListener("click", clearChat);
 
     queryBox.addEventListener("keydown", function(event) {
       if (event.key === "Enter" && !event.shiftKey) {

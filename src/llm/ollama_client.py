@@ -1,5 +1,5 @@
 import requests
-from typing import List, Dict
+from typing import Dict, List
 
 
 class OllamaClient:
@@ -7,7 +7,12 @@ class OllamaClient:
         self.model = model
         self.base_url = base_url.rstrip("/")
 
-    def chat(self, query: str, context_items: List[Dict[str, str]], history: List[Dict[str, str]] | None = None) -> str:
+    def chat(
+        self,
+        query: str,
+        context_items: List[Dict[str, str]],
+        history: List[Dict[str, str]] | None = None,
+    ) -> str:
         context_block = "\n\n".join(
             [
                 f"Source: {item['source']}\nText: {item['text']}"
@@ -17,25 +22,32 @@ class OllamaClient:
 
         history_text = ""
         if history:
-            history_lines = []
+            lines = []
             for turn in history[-4:]:
-                history_lines.append(f"User: {turn['user']}")
-                history_lines.append(f"Assistant: {turn['bot']}")
-            history_text = "\n".join(history_lines)
+                lines.append(f"User: {turn['user']}")
+                lines.append(f"Assistant: {turn['bot']}")
+            history_text = "\n".join(lines)
 
         system_message = (
-            "You are a careful legal assistant focused on Pakistan law. "
-            "Answer accurately, briefly, and only from the provided legal context. "
-            "Use prior conversation only to understand follow-up references like "
-            "'that article', 'previous section', or 'what about that'. "
-            "Do not invent legal sections, articles, or case citations. "
-            "If the context is insufficient, clearly say so. "
-            "Keep the answer natural, concise, and helpful. "
-            "Use this format:\n"
+            "You are a careful legal assistant focused on Pakistan law.\n\n"
+            "Rules:\n"
+            "- Answer only from the provided legal context.\n"
+            "- Be accurate, direct, and concise.\n"
+            "- Do not dump long legal chunks.\n"
+            "- Do not invent laws, punishments, case citations, or article numbers.\n"
+            "- If the provided context is insufficient, say exactly: "
+            "'The provided context does not contain enough information to answer this reliably.'\n"
+            "- Use prior conversation only to understand follow-up references like "
+            "'that article', 'previous section', or 'what about that'.\n\n"
+            "Response format:\n"
             "Answer:\n"
+            "<2 to 4 short sentences>\n\n"
             "Legal Reference:\n"
+            "<relevant article or section if available>\n\n"
             "Explanation:\n"
-            "Caution:"
+            "<brief plain-language explanation>\n\n"
+            "Caution:\n"
+            "<one short caution sentence>"
         )
 
         user_message = f"""
@@ -46,7 +58,7 @@ User question:
 {query}
 
 Retrieved legal context:
-{context_block}
+{context_block if context_block else "No legal context found."}
 """.strip()
 
         response = requests.post(
