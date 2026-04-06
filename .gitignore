@@ -5,4 +5,4 @@ __pycache__/
 .env.*
 .DS_Store
 .vscode/
-data/raw/*.txt   # optional if large/sensitive
+data/raw/*.txt   # optional if large/sensitivedata/raw/eval/auto_evaluation_results.csv
