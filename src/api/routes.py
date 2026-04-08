@@ -1,14 +1,11 @@
-import json
-
-import requests
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse
+import requests
 
 from src.config.settings import settings
 from src.conversation.memory import ConversationMemory
 from src.retrieval.rag_engine import RAGEngine
 from src.schemas.chat import ChatRequest, ChatResponse
-
 
 router = APIRouter()
 
@@ -38,7 +35,6 @@ async def chat(request: ChatRequest):
         history = memory.get_history(session_id)
 
         result = rag.generate(request.query, history=history)
-
         memory.add_message(session_id, request.query, result["answer"])
 
         return ChatResponse(
@@ -50,35 +46,31 @@ async def chat(request: ChatRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@router.post("/chat/context")
+async def chat_context(request: ChatRequest):
+    try:
+        result = rag.get_context(request.query, top_k=3)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.post("/chat/stream")
 async def chat_stream(request: ChatRequest):
     try:
         session_id = request.session_id or "default"
         history = memory.get_history(session_id)
 
-        result = rag.generate(request.query, history=history)
-        relevant_context = result["relevant_context"]
-        answer = result["answer"]
-
         def event_generator():
-            yield f"event: context\ndata: {json.dumps(relevant_context)}\n\n"
-            yield f"event: meta\ndata: {json.dumps(result['metadata'])}\n\n"
+            full_answer = []
 
-            for char in answer:
-                yield f"event: token\ndata: {json.dumps(char)}\n\n"
+            for token in rag.stream_generate(request.query, history=history):
+                full_answer.append(token)
+                yield token
 
-            memory.add_message(session_id, request.query, answer)
-            yield 'event: done\ndata: "done"\n\n'
+            memory.add_message(session_id, request.query, "".join(full_answer))
 
-        return StreamingResponse(
-            event_generator(),
-            media_type="text/event-stream",
-            headers={
-                "Cache-Control": "no-cache",
-                "Connection": "keep-alive",
-            },
-        )
-
+        return StreamingResponse(event_generator(), media_type="text/plain")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

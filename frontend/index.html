@@ -12,6 +12,8 @@
     :root {
       --bg: #000000;
       --panel: #0a0a0a;
+      --panel-2: #111111;
+      --panel-3: #151515;
       --border: #2a2a2a;
       --border-soft: #1b1b1b;
       --text: #ffffff;
@@ -21,6 +23,7 @@
       --user-bg: #ffffff;
       --user-text: #000000;
       --bot-bg: #101010;
+      --danger: #ef4444;
       --shadow: 0 10px 30px rgba(255,255,255,0.03);
     }
 
@@ -107,6 +110,7 @@
       background: #0d0d0d;
       cursor: pointer;
       transition: 0.18s ease;
+      position: relative;
     }
 
     .conversation-item:hover {
@@ -118,20 +122,12 @@
       background: #141414;
     }
 
-    .conversation-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 8px;
-    }
-
     .conversation-title {
       font-size: 14px;
       font-weight: 700;
       color: #ffffff;
       margin-bottom: 4px;
-      line-height: 1.4;
-      flex: 1;
+      padding-right: 34px;
     }
 
     .conversation-meta {
@@ -140,19 +136,24 @@
     }
 
     .delete-chat-btn {
-      background: transparent;
-      color: #ffffff;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 24px;
+      height: 24px;
       border: 1px solid var(--border);
+      background: #111111;
+      color: #ffffff;
       border-radius: 8px;
-      padding: 4px 8px;
-      font-size: 11px;
-      font-weight: 700;
+      font-size: 12px;
       cursor: pointer;
-      flex-shrink: 0;
+      display: grid;
+      place-items: center;
     }
 
     .delete-chat-btn:hover {
-      background: #1a1a1a;
+      background: var(--danger);
+      border-color: var(--danger);
     }
 
     .main {
@@ -229,6 +230,12 @@
       background: #111111;
       color: #ffffff;
       border: 1px solid var(--border);
+    }
+
+    .header-btn.danger {
+      background: var(--danger);
+      color: #ffffff;
+      border-color: var(--danger);
     }
 
     .header-btn:hover {
@@ -352,7 +359,6 @@
       padding: 15px 17px;
       border-radius: 18px;
       line-height: 1.6;
-      white-space: pre-wrap;
       word-break: break-word;
       box-shadow: var(--shadow);
     }
@@ -362,6 +368,7 @@
       color: var(--user-text);
       border: 1px solid #ffffff;
       border-bottom-right-radius: 7px;
+      white-space: pre-wrap;
     }
 
     .bubble.bot {
@@ -546,6 +553,46 @@
       cursor: not-allowed;
     }
 
+    .md p {
+      margin: 0 0 12px;
+    }
+
+    .md p:last-child {
+      margin-bottom: 0;
+    }
+
+    .md strong {
+      color: #ffffff;
+    }
+
+    .md em {
+      color: #e5e7eb;
+    }
+
+    .md code {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 6px;
+      padding: 1px 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.95em;
+    }
+
+    .md ul, .md ol {
+      margin: 0 0 12px 20px;
+      padding: 0;
+    }
+
+    .md li {
+      margin-bottom: 6px;
+    }
+
+    .md h1, .md h2, .md h3, .md h4 {
+      margin: 0 0 10px;
+      font-size: 1em;
+      font-weight: 700;
+    }
+
     @media (max-width: 960px) {
       .layout {
         flex-direction: column;
@@ -574,7 +621,7 @@
       .header-actions {
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
       }
 
       .messages {
@@ -658,6 +705,7 @@
         </div>
         <div class="header-actions">
           <button class="header-btn secondary" id="renameChatBtn">Rename Chat</button>
+          <button class="header-btn secondary" id="stopBtn">Stop</button>
           <button class="header-btn" id="clearBtn">Clear Chat</button>
         </div>
       </div>
@@ -681,17 +729,20 @@
     const queryBox = document.getElementById("query");
     const sendBtn = document.getElementById("sendBtn");
     const clearBtn = document.getElementById("clearBtn");
+    const stopBtn = document.getElementById("stopBtn");
     const newChatBtn = document.getElementById("newChatBtn");
     const renameChatBtn = document.getElementById("renameChatBtn");
     const exportTxtBtn = document.getElementById("exportTxtBtn");
     const exportJsonBtn = document.getElementById("exportJsonBtn");
     const conversationList = document.getElementById("conversationList");
 
-    const STORAGE_KEY = "pk_legal_chat_sessions_v1";
+    const STORAGE_KEY = "pk_legal_chat_sessions_v2";
 
     let isBusy = false;
     let sessions = loadSessions();
     let currentSessionId = sessions[0]?.id || createNewSession();
+    let currentReader = null;
+    let stopRequested = false;
 
     function generateId() {
       return "session-" + Date.now() + "-" + Math.random().toString(36).slice(2, 8);
@@ -759,26 +810,8 @@
       }
     }
 
-    function deleteConversation(sessionId) {
-      const confirmed = confirm("Are you sure you want to delete this conversation?");
-      if (!confirmed) return;
-
-      sessions = sessions.filter(session => session.id !== sessionId);
-
-      if (sessions.length === 0) {
-        currentSessionId = createNewSession();
-      } else if (currentSessionId === sessionId) {
-        currentSessionId = sessions[0].id;
-      }
-
-      saveSessions();
-      renderConversationList();
-      renderCurrentSessionMessages();
-    }
-
     function renderConversationList() {
       conversationList.innerHTML = "";
-
       sessions.sort((a, b) => b.updated_at - a.updated_at);
 
       sessions.forEach(session => {
@@ -786,30 +819,26 @@
         item.className = "conversation-item" + (session.id === currentSessionId ? " active" : "");
         item.dataset.id = session.id;
 
-        const top = document.createElement("div");
-        top.className = "conversation-top";
-
         const title = document.createElement("div");
         title.className = "conversation-title";
         title.textContent = session.title || "Untitled Chat";
-
-        const deleteBtn = document.createElement("button");
-        deleteBtn.className = "delete-chat-btn";
-        deleteBtn.textContent = "Delete";
-        deleteBtn.addEventListener("click", (event) => {
-          event.stopPropagation();
-          deleteConversation(session.id);
-        });
-
-        top.appendChild(title);
-        top.appendChild(deleteBtn);
 
         const meta = document.createElement("div");
         meta.className = "conversation-meta";
         meta.textContent = `${session.messages.length} messages • ${formatDate(session.updated_at)}`;
 
-        item.appendChild(top);
+        const deleteBtn = document.createElement("button");
+        deleteBtn.className = "delete-chat-btn";
+        deleteBtn.textContent = "×";
+        deleteBtn.title = "Delete chat";
+        deleteBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          deleteConversation(session.id);
+        });
+
+        item.appendChild(title);
         item.appendChild(meta);
+        item.appendChild(deleteBtn);
 
         item.addEventListener("click", () => {
           currentSessionId = session.id;
@@ -823,6 +852,70 @@
 
     function scrollToBottom() {
       messages.scrollTop = messages.scrollHeight;
+    }
+
+    function escapeHtml(text) {
+      return text
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;");
+    }
+
+    function renderMarkdown(text) {
+      let html = escapeHtml(text);
+
+      html = html.replace(/^### (.+)$/gm, "<h3>$1</h3>");
+      html = html.replace(/^## (.+)$/gm, "<h2>$1</h2>");
+      html = html.replace(/^# (.+)$/gm, "<h1>$1</h1>");
+
+      html = html.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+      html = html.replace(/\*(.+?)\*/g, "<em>$1</em>");
+      html = html.replace(/`([^`]+)`/g, "<code>$1</code>");
+
+      const lines = html.split("\n");
+      const blocks = [];
+      let inList = false;
+      let listType = null;
+
+      for (const line of lines) {
+        if (/^\s*[-*]\s+/.test(line)) {
+          if (!inList || listType !== "ul") {
+            if (inList) blocks.push(listType === "ul" ? "</ul>" : "</ol>");
+            blocks.push("<ul>");
+            inList = true;
+            listType = "ul";
+          }
+          blocks.push(`<li>${line.replace(/^\s*[-*]\s+/, "")}</li>`);
+        } else if (/^\s*\d+\.\s+/.test(line)) {
+          if (!inList || listType !== "ol") {
+            if (inList) blocks.push(listType === "ul" ? "</ul>" : "</ol>");
+            blocks.push("<ol>");
+            inList = true;
+            listType = "ol";
+          }
+          blocks.push(`<li>${line.replace(/^\s*\d+\.\s+/, "")}</li>`);
+        } else {
+          if (inList) {
+            blocks.push(listType === "ul" ? "</ul>" : "</ol>");
+            inList = false;
+            listType = null;
+          }
+
+          if (line.trim() === "") {
+            blocks.push("");
+          } else if (/^<h[1-3]>/.test(line)) {
+            blocks.push(line);
+          } else {
+            blocks.push(`<p>${line}</p>`);
+          }
+        }
+      }
+
+      if (inList) {
+        blocks.push(listType === "ul" ? "</ul>" : "</ol>");
+      }
+
+      return blocks.join("");
     }
 
     function createWelcomeCard() {
@@ -845,6 +938,15 @@
       attachChipEvents();
     }
 
+    function setBubbleContent(bubble, text, type) {
+      if (type === "bot") {
+        bubble.classList.add("md");
+        bubble.innerHTML = renderMarkdown(text);
+      } else {
+        bubble.textContent = text;
+      }
+    }
+
     function createStaticMessage(message) {
       const row = document.createElement("div");
       row.className = `message-row ${message.type}`;
@@ -862,7 +964,7 @@
 
       const bubble = document.createElement("div");
       bubble.className = `bubble ${message.type}`;
-      bubble.textContent = message.text || "";
+      setBubbleContent(bubble, message.text || "", message.type);
 
       const extra = document.createElement("div");
       extra.className = "extra-content";
@@ -914,7 +1016,7 @@
 
       const bubble = document.createElement("div");
       bubble.className = `bubble ${type}`;
-      bubble.textContent = text;
+      setBubbleContent(bubble, text, type);
 
       const extra = document.createElement("div");
       extra.className = "extra-content";
@@ -985,6 +1087,7 @@
       renameChatBtn.disabled = state;
       exportTxtBtn.disabled = state;
       exportJsonBtn.disabled = state;
+      stopBtn.disabled = !state;
     }
 
     function renderSources(extraContainer, relevantContext) {
@@ -1055,6 +1158,26 @@
       extraContainer.appendChild(bar);
     }
 
+    function deleteConversation(sessionId) {
+      const session = sessions.find(s => s.id === sessionId);
+      if (!session) return;
+
+      const confirmed = confirm(`Delete conversation "${session.title}"?`);
+      if (!confirmed) return;
+
+      sessions = sessions.filter(s => s.id !== sessionId);
+
+      if (sessions.length === 0) {
+        currentSessionId = createNewSession();
+      } else if (currentSessionId === sessionId) {
+        currentSessionId = sessions[0].id;
+      }
+
+      saveSessions();
+      renderConversationList();
+      renderCurrentSessionMessages();
+    }
+
     async function sendMessage(prefill = null, isRegenerate = false) {
       const query = (prefill ?? queryBox.value).trim();
       if (!query || isBusy) return;
@@ -1079,13 +1202,14 @@
 
       queryBox.value = "";
       setBusyState(true);
+      stopRequested = false;
 
       const botMessage = createTypingMessage();
       const botBubble = botMessage.bubble;
       const botExtra = botMessage.extra;
 
       try {
-        const res = await fetch("/chat/stream", {
+        const contextRes = await fetch("/chat/context", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -1094,76 +1218,85 @@
           })
         });
 
-        if (!res.ok || !res.body) {
-          const errText = await res.text();
-          botBubble.textContent = `Backend error (${res.status}): ${errText}`;
+        const contextRaw = await contextRes.text();
+
+        if (!contextRes.ok) {
+          botBubble.textContent = `Backend error (${contextRes.status}): ${contextRaw}`;
           return;
         }
 
-        const reader = res.body.getReader();
+        const contextData = JSON.parse(contextRaw);
+        const relevantContext = contextData.relevant_context || [];
+
+        botBubble.classList.add("md");
+        botBubble.innerHTML = "";
+        scrollToBottom();
+
+        const streamRes = await fetch("/chat/stream", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            query: query,
+            session_id: currentSessionId
+          })
+        });
+
+        if (!streamRes.ok || !streamRes.body) {
+          const raw = await streamRes.text();
+          botBubble.textContent = `Streaming failed: ${raw || streamRes.status}`;
+          return;
+        }
+
+        currentReader = streamRes.body.getReader();
         const decoder = new TextDecoder("utf-8");
-
-        let buffer = "";
         let answer = "";
-        let relevantContext = [];
-
-        botBubble.textContent = "";
+        let buffered = "";
 
         while (true) {
-          const { value, done } = await reader.read();
-          if (done) break;
+          const { value, done } = await currentReader.read();
+          if (done || stopRequested) break;
 
-          buffer += decoder.decode(value, { stream: true });
+          const chunk = decoder.decode(value, { stream: true });
+          answer += chunk;
+          buffered += chunk;
 
-          const events = buffer.split("\n\n");
-          buffer = events.pop() || "";
-
-          for (const eventBlock of events) {
-            const lines = eventBlock.split("\n");
-            let eventName = "";
-            let data = "";
-
-            for (const line of lines) {
-              if (line.startsWith("event:")) {
-                eventName = line.replace("event:", "").trim();
-              } else if (line.startsWith("data:")) {
-                data += line.replace("data:", "").trim();
-              }
-            }
-
-            if (eventName === "context") {
-              try {
-                relevantContext = JSON.parse(data);
-              } catch {
-                relevantContext = [];
-              }
-            } else if (eventName === "token") {
-              try {
-                const token = JSON.parse(data);
-                answer += token;
-                botBubble.textContent = answer;
-                scrollToBottom();
-              } catch {}
-            } else if (eventName === "done") {
-              renderActionBar(botExtra, answer, query);
-              renderSources(botExtra, relevantContext);
-
-              session.messages.push({
-                type: "bot",
-                text: answer,
-                time: botMessage.time,
-                sources: relevantContext,
-                query: query
-              });
-              session.updated_at = Date.now();
-              saveSessions();
-              renderConversationList();
-            }
+          if (buffered.length >= 20 || chunk.includes("\n")) {
+            botBubble.innerHTML = renderMarkdown(answer);
+            buffered = "";
+            scrollToBottom();
           }
         }
+
+        if (buffered.length > 0 || answer.length > 0) {
+          botBubble.innerHTML = renderMarkdown(answer);
+        }
+
+        if (stopRequested) {
+          answer += "\n\n*Generation stopped.*";
+          botBubble.innerHTML = renderMarkdown(answer);
+        }
+
+        renderActionBar(botExtra, answer, query);
+        renderSources(botExtra, relevantContext);
+
+        session.messages.push({
+          type: "bot",
+          text: answer,
+          time: botMessage.time,
+          sources: relevantContext,
+          query: query
+        });
+        session.updated_at = Date.now();
+        saveSessions();
+        renderConversationList();
       } catch (err) {
         botBubble.textContent = `Connection error: ${err.message}`;
       } finally {
+        if (currentReader) {
+          try { await currentReader.cancel(); } catch {}
+        }
+        currentReader = null;
+        stopRequested = false;
         setBusyState(false);
         queryBox.focus();
       }
@@ -1281,8 +1414,17 @@
       queryBox.focus();
     }
 
+    function stopGeneration() {
+      if (!isBusy) return;
+      stopRequested = true;
+      if (currentReader) {
+        currentReader.cancel().catch(() => {});
+      }
+    }
+
     sendBtn.addEventListener("click", () => sendMessage());
     clearBtn.addEventListener("click", clearChat);
+    stopBtn.addEventListener("click", stopGeneration);
     newChatBtn.addEventListener("click", createAndSwitchNewChat);
     renameChatBtn.addEventListener("click", renameCurrentChat);
     exportTxtBtn.addEventListener("click", exportCurrentChatAsTxt);
@@ -1298,6 +1440,7 @@
     ensureCurrentSession();
     renderConversationList();
     renderCurrentSessionMessages();
+    stopBtn.disabled = true;
   </script>
 </body>
 </html>
