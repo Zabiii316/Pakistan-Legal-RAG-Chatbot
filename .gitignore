@@ -1,8 +1,9 @@
 .venv/
-__pycache__/
-*.pyc
 .env
 .env.*
 .DS_Store
 .vscode/
-data/raw/*.txt   # optional if large/sensitivedata/raw/eval/auto_evaluation_results.csv
+data/raw/*.txt   
+__pycache__/
+*.pyc
+data/raw/eval/auto_evaluation_results.csv
